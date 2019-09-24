@@ -1,12 +1,17 @@
 import React from 'react';
 import Header from '../layout/header/header';
+import define from '../common/define';
 
-function Index() {
-    return (
-        <div>
-            <Header></Header>
-        </div>
-    );
+export default class Index extends React.Component{
+    constructor(props){
+        super(props);
+    }
+
+    render (){
+        return(
+            <div>
+                 <Header></Header>
+            </div>
+        )
+    };
 }
-
-export default Index;

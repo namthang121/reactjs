@@ -1,0 +1,1 @@
+exports.PATH_PUBLIC = "";
