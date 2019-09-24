@@ -120,3 +120,7 @@
 .lp-slideshow>.dot-container>.dot:not(.active):hover {
     cursor: pointer;
 }
+
+.set-slide{
+    padding-left: 0;
+}

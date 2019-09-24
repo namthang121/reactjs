@@ -140,7 +140,7 @@ export default class Slideshow extends React.Component {
     render() {
         return (
             <div className="lp-slideshow">
-                <div className="container">
+                <div className="container set-slide">
                     {
                         this.props.input.map((image, index) => {
                             return (
@@ -154,7 +154,7 @@ export default class Slideshow extends React.Component {
                                         {`${index + 1} / ${this.props.input.length}`}
                                     </div>
                                     <img className="image" src={image.src} alt={image.caption} />
-                                    <div className="caption-text">{image.caption}</div>
+                                    {/*<div className="caption-text">{image.caption}</div>*/}
                                 </div>
                             )
                         })

@@ -1,0 +1,42 @@
+.menu-lv2{
+     display: none;
+ }
+
+.menu .list-group-item.title{
+    display: block;
+    background-color: #105ca8;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #fff;
+    border-color: #105ca8;
+    background-image: url(./icon-categori.png) !important;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-align: left;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.menu .list-group-item {
+    background-color: #F8F8F8;
+    color: #293f4f;
+    padding-left: 17px;
+    /*background-image: url(./categori1.png);*/
+    background-repeat: no-repeat;
+    background-position: top 8px left 3px;
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.menu a {
+    color: #293f4f;
+}
+
+.menu .list-group-item:hover {
+    background-color: #ebebeb;
+}
+.menu .list-group-item.title:hover {
+    background-color: #105ca8;
+}
