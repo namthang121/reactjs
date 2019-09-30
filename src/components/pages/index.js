@@ -2,8 +2,11 @@ import React from 'react';
 import Header from '../layout/header/header';
 import Menu from '../layout/menu/menu';
 import SlideShow from '../layout/slideShow/slideshow';
+import Tab from '../layout/tab/tab';
 import define from '../common/define';
 import "./main.css";
+import NewsFeed from "../layout/newsFeed/newsFeed";
+import Footer from "../layout/footer/footer";
 export default class Index extends React.Component{
     constructor(props){
         super(props);
@@ -12,22 +15,25 @@ export default class Index extends React.Component{
     render (){
         return(
             <div>
-                 <Header></Header>
-                <div className="container">
-                    <div className="row show">
+                <Header></Header>
+                <div className="container show">
+                    <div className="row">
                         <div className="col-md-3 menu">
                             <Menu></Menu>
                         </div>
                         <div className="col-md-7 slide">
                             <SlideShow input={define.LIST_MENU}
-                                       ratio={`3:2`}
-                                       mode={`automatic`}
-                                       mode={`3000`}
-                            ></SlideShow>
+                                       ratio={'3:2'}
+                                       mode={'automatic'}
+                                       timeout={'3000'}
+                            />
                         </div>
                         <div className="col-md-3 "></div>
                     </div>
                 </div>
+                <Tab data={define.DATA}/>
+                <NewsFeed></NewsFeed>
+                <Footer></Footer>
             </div>
         )
     };

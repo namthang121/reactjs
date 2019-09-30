@@ -1,0 +1,54 @@
+.panel {
+    border-radius: 0;
+    border-width: 1;
+    border-color: #e6e6e6 #e6e6e6 #e6e6e6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.tin-hot .panel-heading, .tin-moi .panel-heading, .mang-xh .panel-heading, .dang-ky-tin .panel-heading {
+    background-color: #c62121;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 52px;
+    background-position: center left 9px;
+    background-repeat: no-repeat;
+    background-image: url(./tin-moi.png);
+}
+
+.tin-hot .list-group, .tin-moi .list-group, .mang-xh .list-group, .dang-ky-tin .list-group {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 0 15px;
+}
+
+.panel-heading + .list-group .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+
+.media .media-body {
+    width: auto;
+    display: block;
+}
+
+.tin-hot, .tin-moi, .mang-xh, .dang-ky-tin {
+    margin-top: 15px;
+}
+
+.mang-xh .panel-heading {
+    background-color: #105ca8;
+    background-image: url(./mang-xh.png);
+}
+
+
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}

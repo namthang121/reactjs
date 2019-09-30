@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import define from '../../common/define';
 import './slideshow.css';
 
 export default class Slideshow extends React.Component {
@@ -153,7 +154,7 @@ export default class Slideshow extends React.Component {
                                     <div className="number-text">
                                         {`${index + 1} / ${this.props.input.length}`}
                                     </div>
-                                    <img className="image" src={image.src} alt={image.caption} />
+                                    <img className="image" src={define.PATH_PUBLIC_IMG + image.src} alt={image.caption} />
                                     {/*<div className="caption-text">{image.caption}</div>*/}
                                 </div>
                             )

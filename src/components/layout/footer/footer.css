@@ -1,0 +1,48 @@
+.footer-center {
+    font-size: 11px;
+    color: #6c6c6c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-top: solid 10px #000;
+    margin-top: 20px;
+}
+
+.logo-foot {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.share {
+    width: 160px;
+    padding-top: 30px;
+}
+
+.dia-chi {
+    float: left;
+    font-family: "Tahoma";
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    padding: 28px 10px 10px 80px;
+    width: 100%;
+    width: calc(100% - 300px);
+    width: -moz-calc(100% - 300px);
+    width: -webkit-calc(100% - 300px);
+}
+
+.set-dia-chi{
+    margin: 0px auto; font-size: 12px; font-family: Arial; color: rgb(0, 0, 0); line-height: normal; text-align: center;
+}
+
+.pull-right {
+    float: right !important;
+}
+.set-dia-chi p{
+    text-align: left;
+    font-size: 15px;
+}
+
+ul li, ol li {
+    list-style: none;
+}
