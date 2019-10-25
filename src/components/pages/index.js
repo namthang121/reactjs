@@ -4,6 +4,7 @@ import Menu from '../layout/menu/menu';
 import SlideShow from '../layout/slideShow/slideshow';
 import Tab from '../layout/tab/tab';
 import define from '../common/define';
+import Utility from '../common/utinity';
 import "./main.css";
 import NewsFeed from "../layout/newsFeed/newsFeed";
 import Footer from "../layout/footer/footer";
@@ -31,9 +32,9 @@ export default class Index extends React.Component{
                         <div className="col-md-3 "></div>
                     </div>
                 </div>
-                <Tab data={define.DATA}/>
-                <NewsFeed></NewsFeed>
-                <Footer></Footer>
+                <Tab category={Utility.getCategory()} products= {Utility.getAllProduct()}/>
+                <NewsFeed />
+                <Footer />
             </div>
         )
     };

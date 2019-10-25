@@ -25,4 +25,4 @@ exports.DATA = [{
         price: 270000,
         img: "https://cuacuonkimthanhphat.com/wp-content/uploads/2019/05/sua-cua-cuon.jpg"
     }]
-}]
+}];

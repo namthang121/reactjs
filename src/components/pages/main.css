@@ -1,6 +1,142 @@
 .show{
-    height: 500px;
+    height: 560px;
 }
 .float-right{
     float: right;
+}
+
+.breadcrumb {
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb li a{
+    color: #3d3e40;
+}
+
+.breadcrumb .active {
+    color: #c62121;
+}
+
+.breadcrumb .active:before {
+    color: #c62121;
+}
+.breadcrumb li + li:before {
+    color: #3d3e40;
+    content: ">";
+}
+
+.breadcrumb .active:before {
+    padding: 0 5px;
+    color: #c62121;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+#carousel-view-images {
+    position: relative;
+}
+
+.image-detail .image-lag {
+    margin-bottom: 15px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carousel-view-images .carousel-indicators2 {
+    /* width: 100%; */
+}
+.owl-img-thumbail {
+    margin: 0 -8px;
+    width: auto;
+}
+.owl-carousel {
+    overflow: hidden;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.option-btn .btn-them {
+    background-image: url(./cart-detail.png);
+    background-color: #c62121;
+}
+
+.option-btn .btn-detail {
+    display: inline-block;
+    background-color: #c62121;
+    text-transform: uppercase;
+    color: #fff;
+    background-position: center left 13px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    height: 56px;
+    text-align: center;
+    padding: 16px 41px 12px 52px;
+    vertical-align: middle;
+    margin-top: 10px;
+    transition: all 0.2s;
+    border-radius: 7px;
+    border: none;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-detail img {
+    width: 480px;
+}
+.image-detail img {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+.owl-item{
+    width: 125px;
+}
+
+.owl-wrapper{
+    width: 250px;
+    left: 0px;
+    display: block;
+}
+
+.owl-img-thumbail .item {
+    padding: 0 8px 3px;
+}
+
+.owl-img-thumbail .item img {
+    width: 100%;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #dfdfdf;
+    height: auto;
+}
+
+.owl-img-thumbail .item {
+    padding: 0 8px 3px;
 }

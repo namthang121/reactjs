@@ -18,7 +18,39 @@
 }
 
 .tab{
-    height: 335px;
+
+    height: 350px;
+}
+.set-scroll-tab{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.set-scroll-tab::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+}
+
+/* Track */
+.set-scroll-tab::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.set-scroll-tab::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.set-scroll-tab::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-tab{
+    width: auto;
+    height: auto;
+    display: block;
+
 }
 
 .set-tab-link{
