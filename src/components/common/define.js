@@ -1,6 +1,6 @@
 exports.PATH_PUBLIC = "";
 
-exports.PATH_PUBLIC_IMG = "assets/img/";
+exports.PATH_PUBLIC_IMG = process.env.PUBLIC_URL + "/assets/img/";
 
 exports.LIST_MENU = [
     { src: "menu1.png", caption: "Caption one" },

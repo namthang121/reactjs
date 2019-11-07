@@ -10,7 +10,7 @@ function App() {
     <div className="">
         <Router>
                 <Route exact path="/" exact component={Index} />
-                <Route path="/product" component={Product} />
+                <Route path="/product/:id" component={Product} />
                 <Route path="/contact" component={Index} />
         </Router>
     </div>

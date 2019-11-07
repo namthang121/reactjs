@@ -107,36 +107,3 @@
     height: auto;
 }
 
-.image-detail img {
-    width: 480px;
-}
-.image-detail img {
-    padding: 5px;
-    border: 1px solid #dfdfdf;
-}
-
-.owl-item{
-    width: 125px;
-}
-
-.owl-wrapper{
-    width: 250px;
-    left: 0px;
-    display: block;
-}
-
-.owl-img-thumbail .item {
-    padding: 0 8px 3px;
-}
-
-.owl-img-thumbail .item img {
-    width: 100%;
-    cursor: pointer;
-    padding: 2px;
-    border: 1px solid #dfdfdf;
-    height: auto;
-}
-
-.owl-img-thumbail .item {
-    padding: 0 8px 3px;
-}

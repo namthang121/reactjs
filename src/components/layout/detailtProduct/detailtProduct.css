@@ -1,0 +1,148 @@
+.show .image-detail img {
+    width: 480px;
+}
+.show .image-detail img {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+.show .owl-item{
+    width: 125px;
+}
+
+.show .owl-wrapper{
+    width: 250px;
+    left: 0px;
+    display: block;
+}
+
+.show .owl-img-thumbail .item {
+    padding: 0 8px 3px;
+}
+
+.show .owl-img-thumbail .item img {
+    width: 100%;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #dfdfdf;
+    height: auto;
+}
+
+.show .owl-img-thumbail .item {
+    padding: 0 8px 3px;
+}
+.show .entry-detail .soluong {
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.entry-detail .price-old {
+    font-size: 13px;
+    font-weight: bold;
+    color: #3d3e40;
+}
+
+.t-blue {
+    font-weight: bold;
+    color: #36b010;
+}
+
+.entry-detail .price {
+    color: #f82400;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.entry-detail .price-old span {
+    text-decoration: line-through;
+}
+
+.entry-detail .soluong input {
+    display: inline-block;
+    width: 120px;
+    height: 37px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.entry-detail .soluong .in-prew, .entry-detail .soluong .in-next {
+    width: 42px;
+    line-height: 37px;
+    background-color: #7d7d7d;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.lien-he-tv .title {
+    line-height: 35px;
+    display: block;
+    background-color: #105ca8;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 53px;
+    background-image: url(./icon-lh-tv.png);
+    background-repeat: no-repeat;
+    background-position: center left 6px;
+}
+.lien-he-tv .lh-thanh-pho {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b8b8b;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.lien-he-tv .list-group-item:first-child {
+    border: none;
+}
+
+a {
+    color: #3d3e40;
+}
+
+.lien-he-tv .lh-phone {
+    background-image: url(./icon-phone2.png);
+}
+
+.lien-he-tv .lh-phone, .lien-he-tv .lh-mobi, .lien-he-tv .lh-mail, .lien-he-tv .lh-suport {
+    display: inline-block;
+    font-family: "Roboto";
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 48%;
+}
+
+.detail .lien-he-tv .content-lien-he {
+    height: auto;
+}
+.lien-he-tv .content-lien-he {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    padding: 0 9px;
+    height: 245px;
+}
+
+.entry-detail .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff8b00;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    display: block;
+}
