@@ -1,8 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './tab.css';
 import Utinity from '../../common/utinity';
-import {returnStatement} from "@babel/types";
 
 // const styleTest = {
 //     background: 'red'
