@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/layout/contactLayout/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/contactLayout/contactLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/config/Categorys.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/config/Categorys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/config/Products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/config/Products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/utinity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/utility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/tab/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/tab/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/product.js" afterDir="false" />
-    </list>
+    <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -195,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -348,12 +332,12 @@
       <workItem from="1573137692595" duration="968000" />
       <workItem from="1573141434803" duration="1809000" />
       <workItem from="1573180764084" duration="3317000" />
-      <workItem from="1573265554873" duration="4324000" />
+      <workItem from="1573265554873" duration="4924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102663000" />
+    <option name="totallyTimeSpent" value="103263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
