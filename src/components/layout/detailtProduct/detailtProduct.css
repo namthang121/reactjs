@@ -156,3 +156,18 @@ a {
 .entry-detail .soluong input:focus{
     box-shadow: none;
 }
+
+@media only screen and (max-width: 766px) {
+    .show-detail-product .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .entry-detail{
+        padding-top: 20px;
+    }
+
+    .lien-he-tv{
+        display: none;
+    }
+}

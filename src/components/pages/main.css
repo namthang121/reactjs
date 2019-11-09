@@ -21,7 +21,7 @@
     color: #3d3e40;
 }
 .show-detail-product{
-    height: 560px;
+    min-height: 560px;
 }
 .breadcrumb .active {
     color: #c62121;

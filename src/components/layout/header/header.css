@@ -46,3 +46,19 @@
         margin-right: 9px;
     }
 }
+
+@media only screen and (max-width: 766px) {
+    .head-tut {
+        display: none;
+    }
+
+    .set-input-search{
+        margin-right: -15px;
+    }
+
+    .head-contact{
+        text-align: center;
+        padding-top: 7px;
+        margin-right: 9px;
+    }
+}

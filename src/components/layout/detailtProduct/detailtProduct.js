@@ -28,7 +28,7 @@ export default class DetailtProduct extends React.Component {
                     </ol>
                 </div>
                 <div className="row detail col-md-12">
-                    <div className="col-lg-5 col-md-4 no-padding-right">
+                    <div className="col-md-5 col-12 no-padding-right">
                         <div className="image-detail">
                             <div id="carousel-view-images" className="carousel slide" data-ride="carousel">
                                 <div className="image-lag">
@@ -77,9 +77,9 @@ export default class DetailtProduct extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-8">
+                    <div className="col-md-7 col-12">
                         <div className="row">
-                            <div className="col-lg-7 col-md-6">
+                            <div className="col-md-7 col-12">
                                 <div className="entry-detail">
                                     <p className="title">{this.props.data.name}</p>
                                     <p></p>
@@ -105,7 +105,7 @@ export default class DetailtProduct extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-6 no-padding-left">
+                            <div className="col-md-5 col-12 no-padding-left">
                                 <div className="lien-he-tv">
                                     <div className="title">Liên hệ tư vấn</div>
                                     <div className="content-lien-he">
