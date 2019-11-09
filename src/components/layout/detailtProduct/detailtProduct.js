@@ -1,5 +1,5 @@
 import React from 'react';
-import Utility from "../../common/utinity";
+import Utility from "../../common/utility";
 import './detailtProduct.css';
 
 export default class DetailtProduct extends React.Component {
@@ -15,7 +15,8 @@ export default class DetailtProduct extends React.Component {
     changeImg(i){
         this.setState({img : i})
     }
-
+    componentDidUpdate(prevProps, prevState, snapshot) {
+    }
 
     render() {
         return (
@@ -46,7 +47,7 @@ export default class DetailtProduct extends React.Component {
                                         <div className="owl-wrapper-outer">
                                             <div className="owl-wrapper">
                                                 {
-                                                    this.props.data.image.map((i, index)=>{
+                                                    this.props.data.image.map((i)=>{
                                                         return(
                                                             <div className="owl-item" onClick={()=> this.changeImg(i)}>
                                                                 <div data-target="#carousel-view-images" data-slide-to="0"
@@ -89,15 +90,15 @@ export default class DetailtProduct extends React.Component {
                                     <p className="price"><b>Giá bán:</b> {Utility.formatAmount(this.props.data.price)} ₫</p>
                                     <p className="price-old"><b>Giá thị trường:</b> <span>{Utility.formatAmount(this.props.data.oldPrice)}</span> ₫ </p>
 
-                                    <div className="soluong">
-                                        <span>Số lượng</span>
-                                        <span className="in-prew" onClick="setCT('0')">-</span>
-                                        <input type="" value="1" id="num_ssoluong" name="quantity"
-                                               placeholder="" className="form-control" />
-                                        <span className="in-next" >+</span>
-                                    </div>
+                                    {/*<div className="soluong">*/}
+                                    {/*    <span>Số lượng</span>*/}
+                                    {/*    <span className="in-prew">-</span>*/}
+                                    {/*    <input type="" value="1" id="num_ssoluong" name="quantity"*/}
+                                    {/*           placeholder="" className="form-control" />*/}
+                                    {/*    <span className="in-next" >+</span>*/}
+                                    {/*</div>*/}
                                     <div className="option-btn pull-left">
-                                        <button type="submit" className="btn-detail btn-them">Mua ngay</button>
+                                        <button type="submit" className="btn-detail btn-them">Liên Hệ</button>
                                     </div>
                                     <div className="share-face pull-left">
                                         <div className="addthis_native_toolbox"></div>
@@ -112,7 +113,7 @@ export default class DetailtProduct extends React.Component {
                                             <li className="list-group-item">
                                                 <p className="lh-thanh-pho"> Hotline :</p>
                                                 <span className="lh-phone">
-                                                    <a href="tel:0988318978">0988318978</a>
+                                                    <a href={"tel:" + Utility.getContact().phoneNumber}>{Utility.getContact().phoneNumber}</a>
                                                 </span>
                                             </li>
                                         </ul>

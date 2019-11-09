@@ -4,7 +4,7 @@ import Menu from '../layout/menu/menu';
 import SlideShow from '../layout/slideShow/slideshow';
 import Tab from '../layout/tab/tab';
 import define from '../common/define';
-import Utility from '../common/utinity';
+import Utility from '../common/utility';
 import "./main.css";
 import NewsFeed from "../layout/newsFeed/newsFeed";
 import Footer from "../layout/footer/footer";

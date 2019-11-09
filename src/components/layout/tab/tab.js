@@ -1,6 +1,6 @@
 import React from 'react';
 import './tab.css';
-import Utinity from '../../common/utinity';
+import Utility from '../../common/utility';
 
 // const styleTest = {
 //     background: 'red'
@@ -32,13 +32,13 @@ export default class tab extends React.Component {
                                                         <div className="item-product">
                                                             <div className="product-img">
                                                                 <a href={'/product/' + product.id}><img className="set-item-img"
-                                                                                src={Utinity.getUrlImage(product.image[0])}/></a>
+                                                                                src={Utility.getUrlImage(product.image[0])}/></a>
                                                             </div>
                                                             <div className="caption">
                                                                 <a href={'/product/' + product.id} className="name-product">{product.name}</a>
                                                                 <div className="price">
                                                                     <span
-                                                                        className="amount">{Utinity.formatAmount(product.price)}₫</span>
+                                                                        className="amount">{Utility.formatAmount(product.price)}₫</span>
                                                                 </div>
                                                             </div>
                                                         </div>

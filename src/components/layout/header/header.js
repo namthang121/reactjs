@@ -1,9 +1,10 @@
 import React from 'react';
 import './header.css'
+import Utility from "../../common/utility";
 
 function Header() {
     return (
-        <div className="set-header">
+        <div className="set-header container col-md-12">
             <div className="row">
                 <div className="set-icon col-md-3"></div>
                 <div className="head-content col-md-6">
@@ -21,10 +22,15 @@ function Header() {
                                         Tìm Kiếm
                                     </span>
                                 </div>
-                                <input className="form-control my-0 py-1" type="text" placeholder="Tìm em đi..." />
+                                <input className="form-control my-0 py-1" type="text" placeholder="Tìm em đi..."/>
                             </div>
                             <div className="head-contact col-md-6">
-                                <div className="hotline">Hotline: <span>0988318978</span></div>
+                                <div className="hotline">Hotline:
+                                    <a href={"tel:" + Utility.getContact().phoneNumber}>
+                                    <span>{Utility.getContact().phoneNumber}</span>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>

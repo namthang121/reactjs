@@ -1,26 +1,28 @@
-.show .image-detail img {
+.image-detail img {
     width: 480px;
 }
-.show .image-detail img {
+
+.image-detail img {
     padding: 5px;
     border: 1px solid #dfdfdf;
 }
 
-.show .owl-item{
+.show-detail-product .owl-item {
+    padding: 0;
     width: 125px;
 }
 
-.show .owl-wrapper{
+.owl-wrapper {
     width: 250px;
     left: 0px;
     display: block;
 }
 
-.show .owl-img-thumbail .item {
+.owl-img-thumbail .item {
     padding: 0 8px 3px;
 }
 
-.show .owl-img-thumbail .item img {
+.owl-img-thumbail .item img {
     width: 100%;
     cursor: pointer;
     padding: 2px;
@@ -28,10 +30,11 @@
     height: auto;
 }
 
-.show .owl-img-thumbail .item {
+.owl-img-thumbail .item {
     padding: 0 8px 3px;
 }
-.show .entry-detail .soluong {
+
+.entry-detail .soluong {
     border: 1px solid #e6e6e6;
     padding: 5px;
     width: 300px;
@@ -79,6 +82,7 @@
     cursor: pointer;
     vertical-align: top;
 }
+
 .form-control {
     border-radius: 0;
 }
@@ -96,6 +100,7 @@
     background-repeat: no-repeat;
     background-position: center left 6px;
 }
+
 .lien-he-tv .lh-thanh-pho {
     font-size: 14px;
     font-weight: bold;
@@ -132,6 +137,7 @@ a {
 .detail .lien-he-tv .content-lien-he {
     height: auto;
 }
+
 .lien-he-tv .content-lien-he {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     padding: 0 9px;
@@ -145,4 +151,8 @@ a {
     text-transform: uppercase;
     margin-bottom: 3px;
     display: block;
+}
+
+.entry-detail .soluong input:focus{
+    box-shadow: none;
 }
