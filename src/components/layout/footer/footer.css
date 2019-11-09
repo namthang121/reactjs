@@ -46,3 +46,9 @@
 ul li, ol li {
     list-style: none;
 }
+
+@media only screen and (max-width: 766px) {
+    .dia-chi{
+        padding: 12px 10px 10px 25px;
+    }
+}

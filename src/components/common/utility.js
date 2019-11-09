@@ -49,4 +49,9 @@ Utility.getContact = function () {
     return contact;
 };
 
+
+Utility.searchProduct = function (key) {
+
+};
+
 export default Utility;

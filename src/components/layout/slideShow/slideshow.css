@@ -124,3 +124,9 @@
 .set-slide{
     padding-left: 0;
 }
+
+@media only screen and (max-width: 766px){
+    .lp-slideshow{
+        display: none;
+    }
+}

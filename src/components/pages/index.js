@@ -33,7 +33,7 @@ export default class Index extends React.Component{
                     </div>
                 </div>
                 <Tab category={Utility.getCategory()} products= {Utility.getAllProduct()}/>
-                <NewsFeed />
+                {/*<NewsFeed />*/}
                 <Footer />
             </div>
         )

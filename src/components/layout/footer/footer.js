@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import Utility from "../../common/utility";
 
 
 export default class Footer extends React.Component {
@@ -13,38 +14,35 @@ export default class Footer extends React.Component {
                 <div className="footer-center">
                     <div className="container">
                         <div className="row">
-                            <div className="logo-foot pull-left">
+                            {/*<div className="logo-foot pull-left">*/}
 
-                                <a href="https://cuacuonkimthanhphat.com/" className="custom-logo-link" rel="home"
-                                   itemProp="url"><img width="150" height="70"
-                                                       src="https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cropped-LOGO2.png"
-                                                       className="custom-logo"
-                                                       alt="Cửa Cuốn Cửa Kéo Kim Thành Phát – Cửa Cuốn Giá Rẻ Tp.HCM"
-                                                       itemProp="logo" /></a>
-                            </div>
-                            <ul className="share pull-right">
-                                <li><a href="https://www.facebook.com/dichvuquangcaogooglevn/" className="sh-face"></a>
-                                </li>
-                                <li><a href="" className="sh-twi"></a></li>
-                                <li><a href="" className="sh-google"></a></li>
-                                <li><a href="" className="sh-you"></a></li>
-                            </ul>
-                            <div className="dia-chi">
+                            {/*    <a href="https://cuacuonkimthanhphat.com/" className="custom-logo-link" rel="home"*/}
+                            {/*       itemProp="url"><img width="150" height="70"*/}
+                            {/*                           src="https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cropped-LOGO2.png"*/}
+                            {/*                           className="custom-logo"*/}
+                            {/*                           alt="Cửa Cuốn Cửa Kéo Kim Thành Phát – Cửa Cuốn Giá Rẻ Tp.HCM"*/}
+                            {/*                           itemProp="logo" /></a>*/}
+                            {/*</div>*/}
+                            {/*<ul className="share pull-right">*/}
+                            {/*    <li><a href="https://www.facebook.com/dichvuquangcaogooglevn/" className="sh-face"></a>*/}
+                            {/*    </li>*/}
+                            {/*    <li><a href="" className="sh-twi"></a></li>*/}
+                            {/*    <li><a href="" className="sh-google"></a></li>*/}
+                            {/*    <li><a href="" className="sh-you"></a></li>*/}
+                            {/*</ul>*/}
+                            <div className="dia-chi col-12">
                                 <div className="set-dia-chi">
                                     <p>
-                                        <strong> CÔNG TY TNHH TM DỊCH VỤ BẢO CHÂU SPORT </strong>
+                                        <strong> CÔNG TY TNHH ABC </strong>
                                         <br/><br/>
-                                            - Cở Sở 1: 222 Bình Long,P. Phú Thạnh,Q. Tân Phú, Tp HCM
+                                            - Cở Sở 1: {Utility.getContact().address}
                                             <br/><br/>
-                                                - Cở sở 2: 740 D Tỉnh Lộ 8, Tổ 7, Ấp 4, Xã Phước Vĩnh An, Củ Chi
-                                                <br/><br/>
-                                                    - Cở sở 3: 239 Tô Ký, Tân Xuân - Hóc Môn, Thành phố Hồ Chí Minh
-                                                    <br/><br/>
                                                         <strong>Hotline:</strong>
-                                                        0988318 978 - 0909 732 838 - ‭02862 869 978
+                                        {Utility.getContact().phoneNumber}<br/>
                                                         <strong>Email:</strong>
-                                                        cuacuoncuakeokimthanhphat@gmail.com
-                                                    </p>
+                                        {Utility.getContact().email}
+
+                                    </p>
                                                     </div>
 
                                 <p>&nbsp;</p>
