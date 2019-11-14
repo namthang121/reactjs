@@ -44,8 +44,6 @@ export default class Footer extends React.Component {
 
                                     </p>
                                                     </div>
-
-                                <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>

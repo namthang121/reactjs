@@ -157,6 +157,7 @@ a {
     box-shadow: none;
 }
 
+
 @media only screen and (max-width: 766px) {
     .show-detail-product .row{
         margin-right: 0px;
