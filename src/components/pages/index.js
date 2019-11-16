@@ -20,7 +20,7 @@ export default class Index extends React.Component{
                 <div className="container show">
                     <div className="row">
                         <div className="col-md-3 menu">
-                            <Menu></Menu>
+                            <Menu categoty={Utility.getCategory()}></Menu>
                         </div>
                         <div className="col-md-7 slide">
                             <SlideShow input={define.LIST_MENU}

@@ -1,0 +1,98 @@
+
+.tab-gioi-thieu-sp .nav-tabs > li a {
+    padding: 10px 42px;
+}
+
+.sidebar {
+    width: 265px;
+    margin-top: 20px;
+}
+.sidebar .products{
+    padding: 0px;
+}
+.panel {
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: #e6e6e6 #e6e6e6 #e6e6e6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .panel .panel-heading {
+    background-color: #f7f7f7;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #105ca8;
+    padding: 10px;
+}
+
+.item-product {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+.item-product .product-img a {
+    height: 203px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item-product img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sidebar {
+    width: 265px;
+    margin-top: 20px;
+}
+
+.tab-gioi-thieu-sp .tab-content {
+    border-color: #105ca8;
+    padding: 0px 30px 30px;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.tab-gioi-thieu-sp .nav-tabs li {
+    padding-top: 9px;
+    position: relative;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    background-color: #fff;
+}
+
+.tab-gioi-thieu-sp .nav-tabs {
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.tab-gioi-thieu-sp .nav-tabs {
+    /*width: 101%px;*/
+    height: 40px;
+}
+.nav-tabs {
+    border-color: #105ca8;
+}
+
+.tab-gioi-thieu-sp .nav-tabs > li a {
+    padding: 10px 42px;
+    color: #105ca8;
+}
+
+.mo-ta{
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 766px) {
+    .sidebar{
+        display: none;
+    }
+
+}
