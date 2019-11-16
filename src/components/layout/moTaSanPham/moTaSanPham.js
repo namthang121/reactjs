@@ -61,10 +61,7 @@ export default class MoTaSanPham extends React.Component {
 
                             </ul>
 
-                            <div className="tab-content">
-                                {
-                                    this.props.data.desc
-                                }
+                            <div className="tab-content" dangerouslySetInnerHTML={{ __html: this.props.data.desc }}>
                             </div>
                         </div>
                     </div>
