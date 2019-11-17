@@ -11,15 +11,21 @@
     padding: 0;
     width: 125px;
 }
+.owl-wrapper-outer{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
 
 .owl-wrapper {
-    width: 250px;
+    width: 750px;
     left: 0px;
     display: block;
+
 }
 
 .owl-img-thumbail .item {
     padding: 0 8px 3px;
+    float: left;
 }
 
 .owl-img-thumbail .item img {

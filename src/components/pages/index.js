@@ -6,7 +6,7 @@ import Tab from '../layout/tab/tab';
 import define from '../common/define';
 import Utility from '../common/utility';
 import "./main.css";
-import NewsFeed from "../layout/newsFeed/newsFeed";
+// import NewsFeed from "../layout/newsFeed/newsFeed";
 import Footer from "../layout/footer/footer";
 export default class Index extends React.Component{
     constructor(props){

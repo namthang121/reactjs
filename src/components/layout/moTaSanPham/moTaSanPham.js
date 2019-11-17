@@ -6,7 +6,7 @@ export default class MoTaSanPham extends React.Component {
     constructor(props) {
         super(props);
 
-        // this.state = {img : props.data.image[0]}
+        this.state = {product : Utility.getProductWithCategoryId(props.data.categoryId,props.data.id)}
     }
     componentDidMount() {
 
@@ -21,31 +21,32 @@ export default class MoTaSanPham extends React.Component {
                                 Sản phẩm liên quan
                             </div>
                             <ul className="list-group">
-
                                 <ul className="products">
-
-
-                                    <li className="list-group-item">
-                                        <div className="item-product img_listpage">
-                                            <div className="product-img">
-                                                <a href="https://cuacuonkimthanhphat.com/san-pham/cua-cuon-cong-nghe-uc-l3/"><img
-                                                    width="601" height="384"
-                                                    src="https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cua-cuon-dai-loan-9.jpg"
-                                                    className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                    alt=""
-                                                    srcSet="https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cua-cuon-dai-loan-9.jpg 601w, https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cua-cuon-dai-loan-9-300x192.jpg 300w, https://cuacuonkimthanhphat.com/wp-content/uploads/2019/04/cua-cuon-dai-loan-9-600x384.jpg 600w"
-                                                    sizes="(max-width: 601px) 100vw, 601px"/></a>
-                                            </div>
-                                            <div className="caption">
-                                                <a className="name-product"
-                                                   href="https://cuacuonkimthanhphat.com/san-pham/cua-cuon-cong-nghe-uc-l3/">Cửa
-                                                    Cuốn Công Nghệ Úc L3 </a>
-                                                <div className="price">
-                                                    <span className="amount">520,000 ₫</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    {
+                                        this.state.product.map((each)=>{
+                                            return(
+                                                <li className="list-group-item">
+                                                    <div className="item-product img_listpage">
+                                                        <div className="product-img">
+                                                            <a href={"/product/" + each.id}><img
+                                                                width="601" height="384"
+                                                                src={Utility.getUrlImage(each.image[0])}
+                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                sizes="(max-width: 601px) 100vw, 601px"/></a>
+                                                        </div>
+                                                        <div className="caption">
+                                                            <a className="name-product"
+                                                               href={"/product/" + each.id}>{each.name}</a>
+                                                            <div className="price">
+                                                                <span className="amount">{Utility.formatAmount(each.price)} ₫</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            )
+                                        })
+                                    }
                                 </ul>
 
                             </ul>

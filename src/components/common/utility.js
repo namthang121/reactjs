@@ -33,6 +33,13 @@ Utility.getProductById = function (id) {
     }
 };
 
+Utility.getProductWithCategoryId = function (id, idProductExclude) {
+    let product = productJson[id].filter(function (el) {
+        return el.id != idProductExclude;
+    });
+    return product;
+};
+
 Utility.getUrlImage =function (name) {
     return Define.PATH_PUBLIC_IMG + name + '.png';
 };
