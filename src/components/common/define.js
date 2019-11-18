@@ -6,8 +6,8 @@ exports.LIST_MENU = [
     { src: "menu1.png", caption: "Caption one" },
     { src: "menu2.png", caption: "Caption two" },
     { src: "menu3.png", caption: "Caption three" },
-    { src: "menu4.png", caption: "Caption four" },
-    { src: "menu5.png", caption: "Caption five" }
+    { src: "menu4.png", caption: "Caption four" }
+    // { src: "menu5.png", caption: "Caption five" }
 ];
 
 exports.DATA = [{
