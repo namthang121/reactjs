@@ -113,7 +113,7 @@ export default class DetailtProduct extends React.Component {
                                             <li className="list-group-item">
                                                 <p className="lh-thanh-pho"> Hotline :</p>
                                                 <span className="lh-phone">
-                                                    <a href={"tel:" + Utility.getContact().phoneNumber}>{Utility.getContact().phoneNumber}</a>
+                                                    <a href={"tel:" + Utility.getContact().phoneNumber[0]}>{Utility.getContact().phoneNumber[0]}</a>
                                                 </span>
                                             </li>
                                         </ul>

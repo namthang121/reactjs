@@ -38,7 +38,7 @@ export default class Footer extends React.Component {
                                             - Cở Sở 1: {Utility.getContact().address}
                                             <br/><br/>
                                                         <strong>Hotline:</strong>
-                                        {Utility.getContact().phoneNumber}<br/>
+                                        {Utility.getContact().phoneNumber[0]}<br/>
                                                         <strong>Email:</strong>
                                         {Utility.getContact().email}
 
