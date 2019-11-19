@@ -39,7 +39,11 @@ export default class Header  extends React.Component{
         return (
             <div className="set-header container col-md-12">
                 <div className="row">
-                    <div className="set-icon col-md-3"></div>
+                    <div className="set-icon col-md-3">
+                        <a href="/">
+                            <img src={Utility.getUrlImage("logo1")} />
+                        </a>
+                    </div>
                     <div className="head-content col-12 col-md-6">
                         <div className="head-tut margin-15 text-center display-mobile-none col">
                             <a href="/">Hướng Dẫn mua Hàng |</a>
