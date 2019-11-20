@@ -23,7 +23,7 @@ export default class Index extends React.Component{
                             <Menu categoty={Utility.getCategory()}></Menu>
                         </div>
                         <div className="col-md-7 slide">
-                            <SlideShow input={define.LIST_MENU}
+                            <SlideShow input={Utility.getImgSlideShow()}
                                        ratio={'3:2'}
                                        mode={'automatic'}
                                        timeout={'3000'}

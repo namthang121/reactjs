@@ -107,4 +107,15 @@ Utility.searchProduct = function (key) {
     return arr;
 };
 
+Utility.getImgSlideShow = function () {
+    let arr = Utility.getContact().slideShow;
+    let a = [];
+
+    for (let i =0; i < arr.length; i++){
+        a.push({src: arr[i] + ".png", caption: "img " + i})
+    }
+
+    return a;
+};
+
 export default Utility;

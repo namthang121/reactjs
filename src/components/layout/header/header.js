@@ -77,7 +77,7 @@ export default class Header  extends React.Component{
                                 <div className="head-contact col-md-6">
                                     <div className="hotline">Hotline:
                                         <a href={"tel:" + Utility.getContact().phoneNumber[0]}>
-                                            <span>{Utility.getContact().phoneNumber[0]}</span>
+                                            <span> {Utility.getContact().phoneNumber[0]}</span>
                                         </a>
                                     </div>
 

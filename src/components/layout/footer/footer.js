@@ -35,11 +35,27 @@ export default class Footer extends React.Component {
                                     <p>
                                         <strong> CÔNG TY TNHH ABC </strong>
                                         <br/><br/>
-                                            - Cở Sở 1: {Utility.getContact().address}
-                                            <br/><br/>
-                                                        <strong>Hotline:</strong>
-                                        {Utility.getContact().phoneNumber[0]}<br/>
-                                                        <strong>Email:</strong>
+                                        {
+                                            Utility.getContact().address.map(function (each, i) {
+                                                return(
+                                                    <span>
+                                                        - Cở Sở {i+1}: {each}
+                                                        <br/><br/>
+                                                    </span>
+                                                    )
+                                            })
+                                        }
+                                        {
+                                            Utility.getContact().phoneNumber.map(function (each, i) {
+                                                return(
+                                                    <span>
+                                                       <strong>Hotline {i + 1}:</strong>
+                                                        {each}<br/><br/>
+                                                    </span>
+                                                )
+                                            })
+                                        }
+                                                        <strong>Email: </strong>
                                         {Utility.getContact().email}
 
                                     </p>
