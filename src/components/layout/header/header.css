@@ -1,5 +1,5 @@
 .set-header{
-    height: 100px;
+    min-height: 100px;
     background: #c6e5f3;
     margin-bottom: 20px;
     border-bottom: solid 1px #c6e5f3;
@@ -45,6 +45,14 @@
         padding-top: 7px;
         margin-right: 9px;
     }
+    .set-icon{
+        padding: 5px 0 0 30px!important;
+    }
+
+    .set-header .row{
+        margin-right: 0px;
+    }
+
 }
 
 .set-pos-rel {
