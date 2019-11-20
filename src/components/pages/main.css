@@ -112,5 +112,9 @@
     .container{
         padding: 0;
     }
+
+    .show{
+        height: 420px;
+    }
 }
 
