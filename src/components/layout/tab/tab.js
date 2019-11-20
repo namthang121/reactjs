@@ -31,11 +31,11 @@ export default class tab extends React.Component {
                                                     <div className="owl-item">
                                                         <div className="item-product">
                                                             <div className="product-img">
-                                                                <a href={'/product/' + product.id}><img className="set-item-img"
+                                                                <a href={'/san-pham/' + product.id}><img className="set-item-img"
                                                                                 src={Utility.getUrlImage(product.image[0])}/></a>
                                                             </div>
                                                             <div className="caption">
-                                                                <a href={'/product/' + product.id} className="name-product">{product.name}</a>
+                                                                <a href={'/san-pham/' + product.id} className="name-product">{product.name}</a>
                                                                 <div className="price">
                                                                     <span
                                                                         className="amount">{Utility.formatAmount(product.price)}₫</span>

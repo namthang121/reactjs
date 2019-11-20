@@ -28,7 +28,7 @@ export default class MoTaSanPham extends React.Component {
                                                 <li className="list-group-item">
                                                     <div className="item-product img_listpage">
                                                         <div className="product-img">
-                                                            <a href={"/product/" + each.id}><img
+                                                            <a href={"/san-pham/" + each.id}><img
                                                                 width="601" height="384"
                                                                 src={Utility.getUrlImage(each.image[0])}
                                                                 className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
@@ -37,7 +37,7 @@ export default class MoTaSanPham extends React.Component {
                                                         </div>
                                                         <div className="caption">
                                                             <a className="name-product"
-                                                               href={"/product/" + each.id}>{each.name}</a>
+                                                               href={"/san-pham/" + each.id}>{each.name}</a>
                                                             <div className="price">
                                                                 <span className="amount">{Utility.formatAmount(each.price)} ₫</span>
                                                             </div>

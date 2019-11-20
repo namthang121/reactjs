@@ -33,7 +33,7 @@ export default class Footer extends React.Component {
                             <div className="dia-chi col-12">
                                 <div className="set-dia-chi">
                                     <p>
-                                        <strong> {Utility.getContact().name} </strong>
+                                        <strong> {Utility.getContact().name.toUpperCase()} </strong>
                                         <br/><br/>
                                         {
                                             Utility.getContact().address.map(function (each, i) {

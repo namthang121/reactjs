@@ -11,8 +11,8 @@ function App() {
     <div className="">
         <Router>
                 <Route exact path="/" exact component={Index} />
-                <Route path="/product/:id" component={Product} />
-                <Route path="/contact" component={Contact} />
+                <Route path="/san-pham/:id" component={Product} />
+                <Route path="/lien-he" component={Contact} />
         </Router>
     </div>
   );

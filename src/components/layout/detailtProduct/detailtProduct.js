@@ -98,7 +98,8 @@ export default class DetailtProduct extends React.Component {
                                     {/*    <span className="in-next" >+</span>*/}
                                     {/*</div>*/}
                                     <div className="option-btn pull-left">
-                                        <button type="submit" className="btn-detail btn-them">Liên Hệ</button>
+                                        <a href="/lien-he">
+                                            <button type="submit" className="btn-detail btn-them">Liên Hệ</button></a>
                                     </div>
                                     <div className="share-face pull-left">
                                         <div className="addthis_native_toolbox"></div>

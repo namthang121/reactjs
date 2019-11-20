@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import Utility from "../../common/utility";
 
 export default class ContactLayout extends React.Component {
     constructor(props) {
@@ -9,16 +10,32 @@ export default class ContactLayout extends React.Component {
     render() {
         return (
 
-                <div >
-                    ở Sở 1: 222 Bình Long,P. Phú Thạnh,Q. Tân Phú, Tp HCM <br/><br/>-
-                        Cở sở 2: 740 D Tỉnh Lộ 8, Tổ 7, Ấp 4, Xã Phước Vĩnh An, Củ Chi <br/><br/>
-                        <strong>Hotline:</strong> 0988318 978 - 0909 732 838 -
-                        <strong>Email:</strong> cuacuoncuakeokimthanhphat@gmail.com
+            <section className="page-breadcrumb">
+                <ol className="breadcrumb">
+                    <li><a href="/">Trang chủ </a></li>
+                    <li className="active">Liên hệ</li>
+                </ol>
+                <div className="h_c">
+                    <div>
+                        <p><strong className="text-red"> {Utility.getContact().name.toUpperCase()} </strong><br/><br/>
+                            {
+                                Utility.getContact().address.map((each, i)=>{
+                                    return(
+                                        <span>
+                                            - Cở Sở {i + 1}: {each}<br/><br/>
+                                        </span>
+                                    )
+                                })
+                            }
+                            <strong className="text-red" >Hotline:</strong> {Utility.getContact().phoneNumber[0] + " - " + Utility.getContact().phoneNumber[1]}
+                            <strong className="text-red" > Email: </strong> {Utility.getContact().email}</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.869667916378!2d106.68192331433704!3d10.821284661324261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e4ec80a697%3A0xaf82c6292ffd6bf5!2zNTY2LCA1OSBOZ3V54buFbiBUaMOhaSBTxqFuLCBwaMaw4budbmcgNCwgR8OyIFbhuqVwLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1574257022280!5m2!1svi!2s"
+                            width="100%" height="400px" frameBorder="0"  allowFullScreen="allowfullscreen"></iframe>
 
-                    <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.377926724789!2d106.6175233154157!3d10.782339262031464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c1ada830219%3A0x378954c6f5645f41!2zQ8ahIFPhu58gQ-G7rWEgQ3Xhu5FuIEtpbSBUaMOgbmggUGjDoXQ!5e0!3m2!1svi!2s!4v1556355735850!5m2!1svi!2s"
-                            width="1100" height="450" frameBorder="0" allowFullScreen="allowfullscreen"></iframe>
+                    </div>
                 </div>
+            </section>
 
         );
     }

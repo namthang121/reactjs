@@ -15,7 +15,9 @@ export default class Contact extends React.Component{
         return(
             <div>
                 <Header></Header>
-                <ContactLayout></ContactLayout>
+                <div className="container">
+                    <ContactLayout></ContactLayout>
+                </div>
                 <Footer />
             </div>
         )
