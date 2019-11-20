@@ -31,6 +31,10 @@
     font-size: 13px;
 }
 
+.set-input-search{
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 766px) {
     .head-tut {
         display: none;
@@ -107,9 +111,9 @@
         display: none;
     }
 
-    .set-input-search{
-        margin-right: -15px;
-    }
+    /*.set-input-search{*/
+    /*    margin-right: -15px;*/
+    /*}*/
 
     .head-contact{
         text-align: center;

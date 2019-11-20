@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/contactLayout/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/contactLayout/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/contactLayout/contactLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/contactLayout/contactLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/tab/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/tab/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/header.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
@@ -30,15 +23,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,6 +68,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
               <caret line="85" column="25" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -145,10 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>766</find>
-      <find>.show-detail-product</find>
-      <find>show-de</find>
-      <find>.set-input-search</find>
       <find>phonenu</find>
       <find>.footer-center</find>
       <find>containerElm</find>
@@ -173,8 +162,12 @@
       <find>footer-center</find>
       <find>Liê</find>
       <find>/produc</find>
-      <find>liên</find>
       <find>().name</find>
+      <find>set-input</find>
+      <find>liên</find>
+      <find>set-inpu</find>
+      <find>.set-input-search</find>
+      <find>.set-in</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/components/common/utility.js" />
         <option value="$PROJECT_DIR$/src/components/common/config/Contacts.json" />
         <option value="$PROJECT_DIR$/src/components/layout/header/header.js" />
-        <option value="$PROJECT_DIR$/src/components/layout/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/layout/footer/footer.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" />
@@ -224,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/components/layout/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/components/layout/contactLayout/contactLayout.js" />
         <option value="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" />
+        <option value="$PROJECT_DIR$/src/components/layout/header/header.css" />
       </list>
     </option>
   </component>
@@ -426,12 +419,12 @@
       <workItem from="1573956239643" duration="3660000" />
       <workItem from="1574045903446" duration="6056000" />
       <workItem from="1574135174100" duration="6925000" />
-      <workItem from="1574222571676" duration="5354000" />
+      <workItem from="1574222571676" duration="6078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163499000" />
+    <option name="totallyTimeSpent" value="164223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -709,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -821,6 +807,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
