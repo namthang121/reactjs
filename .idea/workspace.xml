@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/footer.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -120,22 +120,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.css">
+        <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>owl-item</find>
       <find>favic</find>
       <find>manife</find>
       <find>manifest.json</find>
@@ -182,6 +181,7 @@
       <find>body</find>
       <find>set-icon</find>
       <find>.set-header</find>
+      <find>footer-center</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/components/common/utinity.js" />
         <option value="$PROJECT_DIR$/src/components/layout/slideShow/slideshow.css" />
         <option value="$PROJECT_DIR$/src/components/pages/main.css" />
-        <option value="$PROJECT_DIR$/src/components/layout/footer/footer.css" />
         <option value="$PROJECT_DIR$/src/components/layout/menu/menu.js" />
         <option value="$PROJECT_DIR$/src/components/layout/moTaSanPham/style.css" />
         <option value="$PROJECT_DIR$/src/components/pages/product.js" />
@@ -230,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/components/layout/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/layout/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/layout/footer/footer.js" />
+        <option value="$PROJECT_DIR$/src/components/layout/footer/footer.css" />
       </list>
     </option>
   </component>
@@ -416,12 +416,12 @@
       <workItem from="1573956239643" duration="3660000" />
       <workItem from="1574045903446" duration="6056000" />
       <workItem from="1574135174100" duration="6925000" />
-      <workItem from="1574222571676" duration="2904000" />
+      <workItem from="1574222571676" duration="3833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161049000" />
+    <option name="totallyTimeSpent" value="161978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -575,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -829,10 +822,17 @@
     <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/footer/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
