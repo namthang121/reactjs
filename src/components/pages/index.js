@@ -8,6 +8,8 @@ import Utility from '../common/utility';
 import "./main.css";
 // import NewsFeed from "../layout/newsFeed/newsFeed";
 import Footer from "../layout/footer/footer";
+import {Helmet} from "react-helmet";
+
 export default class Index extends React.Component{
     constructor(props){
         super(props);
@@ -16,6 +18,10 @@ export default class Index extends React.Component{
     render (){
         return(
             <div>
+                <Helmet>
+                    <title>Trang Chủ | Cửa Cuốn Hạt Dẻ</title>
+                    <meta name="description" content=""></meta>
+                </Helmet>
                 <Header></Header>
                 <div className="container show">
                     <div className="row">

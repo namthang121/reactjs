@@ -118,4 +118,24 @@ Utility.getImgSlideShow = function () {
     return a;
 };
 
+Utility.getDestDefault = function(){
+    let self = this;
+    return [self.getContact().phoneNumber[0],self.getContact().name];
+};
+
+Utility.getDescByKey = function (product, arrKey) {
+    let self = this;
+    let arr = [];
+    for(let i =0; i< arrKey.length; i++){
+        let each = arrKey[i];
+        if(each == "categoryId"){
+            arr.push(Utility.getCategory()[product[each]].name);
+        }else {
+            arr.push(product[each]);
+        }
+    }
+    arr =  arr.concat(self.getDestDefault());
+    return arr.toString();
+};
+
 export default Utility;

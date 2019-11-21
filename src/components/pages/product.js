@@ -6,6 +6,8 @@ import "./main.css";
 import Footer from "../layout/footer/footer";
 import DetailtProduct from "../layout/detailtProduct/detailtProduct";
 import MoTaSanPham from "../layout/moTaSanPham/moTaSanPham";
+import {Helmet} from "react-helmet";
+
 export default class Product extends React.Component{
     constructor(props){
         super(props);
@@ -17,6 +19,10 @@ export default class Product extends React.Component{
     render (){
         return(
             <div>
+                <Helmet>
+                    <title>{this.state.data.name}</title>
+                    <meta name="description" content={Utility.getDescByKey(this.state.data,define.KEY_DESC) }></meta>
+                </Helmet>
                 <Header></Header>
                 <div className="container show-detail-product">
                     <DetailtProduct data={this.state.data}></DetailtProduct>
