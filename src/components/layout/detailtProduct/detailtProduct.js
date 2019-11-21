@@ -37,7 +37,7 @@ export default class DetailtProduct extends React.Component {
                                             <img width="740" height="630"
                                                  src={Utility.getUrlImage(this.state.img)}
                                                  className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                 alt=""
+                                                 alt={this.props.data.name +","+ this.props.data.id}
                                                  sizes="(max-width: 740px) 100vw, 740px" /></div>
                                     </div>
                                 </div>
@@ -54,6 +54,7 @@ export default class DetailtProduct extends React.Component {
                                                                      className="active item">
                                                                     <img width="740" height="630"
                                                                          src={Utility.getUrlImage(i)}
+                                                                         alt={this.props.data.name +","+ this.props.data.id}
                                                                          className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                          sizes="(max-width: 740px) 100vw, 740px" /></div>
                                                             </div>

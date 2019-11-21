@@ -32,7 +32,7 @@ export default class MoTaSanPham extends React.Component {
                                                                 width="601" height="384"
                                                                 src={Utility.getUrlImage(each.image[0])}
                                                                 className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt=""
+                                                                alt={each.name +","+ each.id}
                                                                 sizes="(max-width: 601px) 100vw, 601px"/></a>
                                                         </div>
                                                         <div className="caption">

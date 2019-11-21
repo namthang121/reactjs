@@ -21,7 +21,9 @@ export default class Product extends React.Component{
             <div>
                 <Helmet>
                     <title>{this.state.data.name}</title>
-                    <meta name="description" content={Utility.getDescByKey(this.state.data,define.KEY_DESC) }></meta>
+                    <meta name="description" content={Utility.getDescByKey(this.state.data,define.KEY_DESC) } />
+                    <meta property="og:title" content={Utility.getDescByKey(this.state.data,define.KEY_DESC) } />
+                    <meta property="og:description" content={Utility.getDescByKey(this.state.data,define.KEY_DESC) } />
                 </Helmet>
                 <Header></Header>
                 <div className="container show-detail-product">
