@@ -51,10 +51,12 @@
     }
     .set-icon{
         padding: 5px 0 0 30px!important;
+        text-align: center;
     }
 
     .set-header .row{
         margin-right: 0px;
+        margin-left: 0px;
     }
 
 }
@@ -127,7 +129,7 @@
 }
 
 .set-icon img{
-    margin-left: 90px;
+    /*margin-left: 90px;*/
     height: auto;
     width: 170px;
 }

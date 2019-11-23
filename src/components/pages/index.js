@@ -25,7 +25,7 @@ export default class Index extends React.Component{
                 <Header></Header>
                 <div className="container show">
                     <div className="row">
-                        <div className="col-md-3 menu">
+                        <div className="col-md-3 menu col-12">
                             <Menu categoty={Utility.getCategory()}></Menu>
                         </div>
                         <div className="col-md-7 slide">
@@ -35,7 +35,7 @@ export default class Index extends React.Component{
                                        timeout={'3000'}
                             />
                         </div>
-                        <div className="col-md-3 "></div>
+                        {/*<div className="col-md-2 "></div>*/}
                     </div>
                 </div>
                 <Tab category={Utility.getCategory()} products= {Utility.getAllProduct()}/>
