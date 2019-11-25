@@ -1,6 +1,7 @@
 import React from 'react';
 import Utility from "../../common/utility";
 import './detailtProduct.css';
+import {Link} from "react-router-dom";
 
 export default class DetailtProduct extends React.Component {
     constructor(props) {
@@ -99,8 +100,8 @@ export default class DetailtProduct extends React.Component {
                                     {/*    <span className="in-next" >+</span>*/}
                                     {/*</div>*/}
                                     <div className="option-btn pull-left">
-                                        <a href="/lien-he">
-                                            <button type="submit" className="btn-detail btn-them">Liên Hệ</button></a>
+                                        <Link to="/lien-he">
+                                            <button type="submit" className="btn-detail btn-them">Liên Hệ</button></Link>
                                     </div>
                                     <div className="share-face pull-left">
                                         <div className="addthis_native_toolbox"></div>

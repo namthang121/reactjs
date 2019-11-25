@@ -2,6 +2,8 @@ import React from 'react';
 import './tab.css';
 import Utility from '../../common/utility';
 
+import {Link} from "react-router-dom";
+
 // const styleTest = {
 //     background: 'red'
 // };
@@ -31,9 +33,9 @@ export default class tab extends React.Component {
                                                     <div className="owl-item">
                                                         <div className="item-product">
                                                             <div className="product-img">
-                                                                <a href={'/san-pham/' + product.id}><img className="set-item-img"
+                                                                <Link to={'/san-pham/' + product.id}><img className="set-item-img"
                                                                                 src={Utility.getUrlImage(product.image[0])}
-                                                                                alt={product.name +","+ product.id} /></a>
+                                                                                alt={product.name +","+ product.id} /></Link>
                                                             </div>
                                                             <div className="caption">
                                                                 <a href={'/san-pham/' + product.id} className="name-product">{product.name}</a>

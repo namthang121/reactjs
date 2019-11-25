@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css'
 import Utility from "../../common/utility";
+import {Link} from 'react-router-dom';
 
 export default class Header extends React.Component {
     constructor(props) {
@@ -41,9 +42,9 @@ export default class Header extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="set-icon col-12 col-md-2">
-                            <a href="/">
+                            <Link to="/">
                                 <img src={Utility.getUrlImage("logo1")}/>
-                            </a>
+                            </Link>
                         </div>
                         <div className="head-content col-12 col-md-8">
                             <div className="head-tut margin-15 text-center display-mobile-none col">

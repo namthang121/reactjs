@@ -1,8 +1,5 @@
 import React from 'react';
 import Header from '../layout/header/header';
-
-import define from '../common/define';
-import Utility from '../common/utility';
 import "./main.css";
 import Footer from "../layout/footer/footer";
 import ContactLayout from "../layout/contactLayout/contactLayout";
