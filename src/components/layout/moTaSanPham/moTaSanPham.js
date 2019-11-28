@@ -1,6 +1,7 @@
 import React from 'react';
 import Utility from "../../common/utility";
 import './style.css';
+import {Link} from "react-router-dom";
 
 export default class MoTaSanPham extends React.Component {
     constructor(props) {
@@ -28,16 +29,16 @@ export default class MoTaSanPham extends React.Component {
                                                 <li className="list-group-item">
                                                     <div className="item-product img_listpage">
                                                         <div className="product-img">
-                                                            <a href={"/san-pham/" + each.id}><img
+                                                            <Link to={"/san-pham/" + each.id}><img
                                                                 width="601" height="384"
                                                                 src={Utility.getUrlImage(each.image[0])}
                                                                 className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                 alt={each.name +","+ each.id}
-                                                                sizes="(max-width: 601px) 100vw, 601px"/></a>
+                                                                sizes="(max-width: 601px) 100vw, 601px"/></Link>
                                                         </div>
                                                         <div className="caption">
-                                                            <a className="name-product"
-                                                               href={"/san-pham/" + each.id}>{each.name}</a>
+                                                            <Link className="name-product"
+                                                               to={"/san-pham/" + each.id}>{each.name}</Link>
                                                             <div className="price">
                                                                 <span className="amount">{Utility.formatAmount(each.price)} ₫</span>
                                                             </div>

@@ -17,6 +17,17 @@ Utility.getCategory = function () {
     return categoryJson;
 };
 
+Utility.getCategoryById = function(id){
+    let self = this;
+    let list = self.getCategory();
+
+    let category = list.find(function (el) {
+        return el.id == id;
+    });
+
+    return category;
+};
+
 Utility.getAllProduct = function () {
     return productJson;
 };

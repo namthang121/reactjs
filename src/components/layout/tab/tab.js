@@ -22,7 +22,7 @@ export default class tab extends React.Component {
                             <div className="container tab col-md-12">
                                 <div className="header-tab">
                                     <div className="title-section"><span>{each.name}</span></div>
-                                    <span className="float-right set-tab-link"><a href="">Xem chi tiết</a></span>
+                                    <span className="float-right set-tab-link"><Link to={"/danh-muc/" + each.id}>Xem chi tiết</Link></span>
                                 </div>
                                 <div className="set-scroll-tab">
                                     <div style={{width: this.props.products[each.id].length * 234 + 'px'}}
