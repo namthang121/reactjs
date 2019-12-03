@@ -48,10 +48,10 @@ export default class Header extends React.Component {
                         </div>
                         <div className="head-content col-12 col-md-8">
                             <div className="head-tut margin-15 text-center display-mobile-none col">
-                                <a href="/">Hướng Dẫn mua Hàng |</a>
-                                <a href="/"> Hướng Dẫn thanh toán |</a>
-                                <a href="/"> Chính Sách đổi trả |</a>
-                                <a href="/"> Đăng nhập/Đăng ký</a>
+                                <Link to="/">Hướng Dẫn mua Hàng |</Link>
+                                <Link to="/"> Hướng Dẫn thanh toán |</Link>
+                                <Link to="/"> Chính Sách đổi trả |</Link>
+                                <Link to="/"> Đăng nhập/Đăng ký</Link>
                             </div>
                             <div className="head-search margin-15 col">
                                 <div className="row set-input-search">
@@ -67,7 +67,7 @@ export default class Header extends React.Component {
                                                                 <img src={Utility.getUrlImage(item.image[0])}/>
                                                             </div>
                                                             <div className="search-content-product">
-                                                                <a href={"san-pham/" + item.id}>{item.name}</a><br/>
+                                                                <Link to={"/san-pham/" + item.id}>{item.name}</Link><br/>
                                                                 <span>Giá : <span className="price">{item.price}</span></span>
                                                             </div>
                                                         </div>
