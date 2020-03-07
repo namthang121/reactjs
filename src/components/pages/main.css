@@ -193,3 +193,28 @@
     background-color: #fadb22;
 }
 
+#top {
+    display: block;
+    color: #FFF;
+    font-weight: 500;
+    text-align: center;
+    width: 44px;
+    padding: 11px 0px;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    z-index: 9999;
+    /*display: none;*/
+    cursor: pointer;
+    background-color: #4AB7EC;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}

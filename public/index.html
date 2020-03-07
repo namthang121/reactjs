@@ -9,13 +9,38 @@
   <meta content="Cửa cuốn hạt dẻ,cua cuon hat de,cửa cuốn cao cấp,cửa cuốn giá rẻ,cuacuonhatde,cuacuonhatde.com" name="keywords" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css">
+
+  <link href="%PUBLIC_URL%/assets/css/fontawesome.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/assets/css/brands.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/assets/css/solid.css" rel="stylesheet">
+
   <script src="%PUBLIC_URL%/assets/js/jquery-slim.min.js"></script>
   <script src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
   <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script defer src="%PUBLIC_URL%/assets/js/brands.js"></script>
+  <script defer src="%PUBLIC_URL%/assets/js/solid.js"></script>
+  <script defer src="%PUBLIC_URL%/assets/js/fontawesome.js"></script>
 </head>
 
 <body>
   <div id="root"></div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('body').append('<div id="top" title="Back to Top"><i class="fa fa-chevron-up"></i></div>');
+      $(window).scroll(function() {
+        if($(window).scrollTop() > 100) {
+          $('#top').fadeIn();
+        } else {
+          $('#top').fadeOut();
+        }
+      });
+      $('#top').click(function() {
+        $('html, body').animate({scrollTop:0},500);	});
+    });
+  </script>
 </body>
 
 </html>

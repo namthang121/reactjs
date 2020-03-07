@@ -50,6 +50,9 @@ export default class Header extends React.Component {
                         <div className="quick-alo-ph-img-circle"></div>
                     </div>
                 </a>
+                {/*<div id="top" title="Back to Top">*/}
+                {/*    <i className="fa fa-chevron-up"></i>*/}
+                {/*</div>*/}
                 <div className="container">
                     <div className="row">
                         <div className="set-icon col-12 col-md-2">
