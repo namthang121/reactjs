@@ -13,7 +13,7 @@
     padding-left: 52px;
     background-position: center left 9px;
     background-repeat: no-repeat;
-    background-image: url(./tin-moi.png);
+    background-image: url(img/tin-moi.png);
 }
 
 .tin-hot .list-group, .tin-moi .list-group, .mang-xh .list-group, .dang-ky-tin .list-group {
@@ -41,7 +41,7 @@
 
 .mang-xh .panel-heading {
     background-color: #105ca8;
-    background-image: url(./mang-xh.png);
+    background-image: url(img/mang-xh.png);
 }
 
 

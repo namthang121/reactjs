@@ -102,7 +102,7 @@
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 53px;
-    background-image: url(./icon-lh-tv.png);
+    background-image: url(img/icon-lh-tv.png);
     background-repeat: no-repeat;
     background-position: center left 6px;
 }
@@ -125,7 +125,7 @@ a {
 }
 
 .lien-he-tv .lh-phone {
-    background-image: url(./icon-phone2.png);
+    background-image: url(img/icon-phone2.png);
 }
 
 .lien-he-tv .lh-phone, .lien-he-tv .lh-mobi, .lien-he-tv .lh-mail, .lien-he-tv .lh-suport {
