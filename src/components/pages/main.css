@@ -127,13 +127,13 @@
 
 .quick-alo-phone {
     position: fixed;
-    width: 200px;
-    height: 200px;
+    /*width: 200px;*/
+    /*height: 200px;*/
     background-color: transparent;
     cursor: pointer;
     z-index: 9999999;
     transition: visibility .5s;
-    bottom: 15px;
+    bottom: 215px;
     left: -50px;
 }
 
