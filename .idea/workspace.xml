@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/header.js" afterDir="false" />
-    </list>
+    <list default="true" id="9a5b35f4-5221-4c99-9e6e-d4a30a5981b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -228,32 +226,6 @@
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -412,18 +384,17 @@
       <workItem from="1584242348740" duration="599000" />
       <workItem from="1584269006064" duration="107000" />
       <workItem from="1592237198877" duration="2083000" />
-      <workItem from="1592314873778" duration="2713000" />
+      <workItem from="1592314873778" duration="3271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220593000" />
+    <option name="totallyTimeSpent" value="221151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -437,7 +408,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21972133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21972133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
