@@ -1,39 +1,12 @@
 import React from 'react';
 import './header.css'
-import Utility from "../../common/utility";
-import {Link} from 'react-router-dom';
+
 
 export default class Header extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {searchData: []};
-    }
-
-    setSearchData(data) {
-        this.setState({searchData: data})
-    }
-
-    componentDidMount() {
-        let self = this;
-        let input = document.getElementById("search-product");
-        let listSearch = document.getElementById("list-search");
-
-        // input.addEventListener("keydown", function () {
-        //     console.log(input.value);
-        //     let key = input.value.trim();
-        //     if (key.length <= 0) {
-        //         listSearch.style.display = "none";
-        //     } else {
-        //         let data = Utility.searchProduct(input.value);
-        //         if (data.length > 0) {
-        //             listSearch.style.display = "block";
-        //         } else {
-        //             listSearch.style.display = "none";
-        //         }
-        //         self.setSearchData(data);
-        //     }
-        // })
     }
 
     render() {
