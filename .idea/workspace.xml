@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/layout/menu/menu.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -126,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="581">
@@ -165,7 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer-center</find>
       <find>Liê</find>
       <find>().name</find>
       <find>set-input</find>
@@ -195,6 +194,7 @@
       <find>.info_policy</find>
       <find>zalo</find>
       <find>.quick-alo-phone</find>
+      <find>set-slide-mb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,7 +306,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="newsFeed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
@@ -473,16 +473,15 @@
       <workItem from="1584242348740" duration="599000" />
       <workItem from="1584269006064" duration="107000" />
       <workItem from="1592237198877" duration="2083000" />
-      <workItem from="1592314873778" duration="1456000" />
+      <workItem from="1592314873778" duration="1900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219336000" />
+    <option name="totallyTimeSpent" value="219780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -887,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/menu/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -925,6 +917,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="295" column="21" selection-start-line="295" selection-start-column="21" selection-end-line="295" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/menu/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
