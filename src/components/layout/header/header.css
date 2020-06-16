@@ -133,3 +133,29 @@
     height: auto;
     width: 170px;
 }
+
+.medium-header {
+    padding: 15px 0px;
+    background-color: #fdc717;
+}
+
+.center-text {
+   text-align: center;
+}
+
+.font-16{
+    font-size: 16px;
+}
+.font-24{
+    font-size: 24px;
+}
+
+.color-blue{
+    color:#2987cd;
+}
+
+.color-red{
+    color: rgb(255, 0, 0);
+}
+
+

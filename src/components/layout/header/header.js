@@ -19,93 +19,53 @@ export default class Header extends React.Component {
         let input = document.getElementById("search-product");
         let listSearch = document.getElementById("list-search");
 
-        input.addEventListener("keydown", function () {
-            console.log(input.value);
-            let key = input.value.trim();
-            if (key.length <= 0) {
-                listSearch.style.display = "none";
-            } else {
-                let data = Utility.searchProduct(input.value);
-                if (data.length > 0) {
-                    listSearch.style.display = "block";
-                } else {
-                    listSearch.style.display = "none";
-                }
-                self.setSearchData(data);
-            }
-        })
+        // input.addEventListener("keydown", function () {
+        //     console.log(input.value);
+        //     let key = input.value.trim();
+        //     if (key.length <= 0) {
+        //         listSearch.style.display = "none";
+        //     } else {
+        //         let data = Utility.searchProduct(input.value);
+        //         if (data.length > 0) {
+        //             listSearch.style.display = "block";
+        //         } else {
+        //             listSearch.style.display = "none";
+        //         }
+        //         self.setSearchData(data);
+        //     }
+        // })
     }
 
     render() {
         return (
-            <div className="set-header col-md-12">
-                <div id="zalo-pc">
-                    <a href="https://zalo.me/0945601145" target="blank">
-                        <img src={Utility.getUrlImage("zalo")} />
-                    </a>
-                </div>
-                <a href="tel:09456 0 1145">
-                    <div className="quick-alo-phone" id="quick-alo-phoneIcon">
-                        <div className="quick-alo-ph-circle-fill"></div>
-                        <div className="quick-alo-ph-img-circle"></div>
-                    </div>
-                </a>
-                {/*<div id="top" title="Back to Top">*/}
-                {/*    <i className="fa fa-chevron-up"></i>*/}
-                {/*</div>*/}
-                <div className="container">
-                    <div className="row">
-                        <div className="set-icon col-12 col-md-2">
-                            <Link to="/">
-                                <img src={Utility.getUrlImage("logo1")}/>
-                            </Link>
-                        </div>
-                        <div className="head-content col-12 col-md-8">
-                            <div className="head-tut margin-15 text-center display-mobile-none col">
-                                <Link to="/">Hướng Dẫn mua Hàng |</Link>
-                                <Link to="/"> Hướng Dẫn thanh toán |</Link>
-                                <Link to="/"> Chính Sách đổi trả |</Link>
-                                <Link to="/"> Đăng nhập/Đăng ký</Link>
-                            </div>
-                            <div className="head-search margin-15 col">
-                                <div className="row set-input-search">
-                                    <div className="input-group md-form form-sm form-1 col-md-6 ">
-                                        <input id="search-product" className="form-control my-0 py-1" type="text"
-                                               placeholder="Tìm kiếm..."/>
-                                        <div id="list-search" className="list-search col-md-12">
-                                            {
-                                                this.state.searchData.map((item) => {
-                                                    return (
-                                                        <div className="item-search">
-                                                            <div className="search-icon-product">
-                                                                <img src={Utility.getUrlImage(item.image[0])}/>
-                                                            </div>
-                                                            <div className="search-content-product">
-                                                                <Link to={"/san-pham/" + item.id}>{item.name}</Link><br/>
-                                                                <span>Giá : <span className="price">{item.price}</span></span>
-                                                            </div>
-                                                        </div>
-                                                    )
-                                                })
-                                            }
-
-                                        </div>
-                                    </div>
-                                    <div className="head-contact col-md-6">
-                                        <div className="hotline">Hotline:
-                                            <a href={"tel:" + Utility.getContact().phoneNumber[0]}>
-                                                <span> {Utility.getContact().phoneNumber[0]}</span>
-                                            </a>
-                                        </div>
-
-                                    </div>
+                <div className="medium-header hidden-xs hidden-sm">
+                    <div className="container">
+                        <div className="wrap row">
+                            <div className="logo-top col-sm-4 col-xs-12 ">
+                                <div className="logo">
+                                    <a href="" target="_blank" title="Logo"><img
+                                        src="https://www.cuacuonchongtrom.com/library/logo1523504582_s73.png" alt="Logo"
+                                        title="Logo" /></a>
                                 </div>
                             </div>
+                            <div className="col-sm-8 col-xs-12">
+                                <div className="center-text">
+                                    <span className="font-16"><b>ĐẠI LÝ PHÂN PHỐI ĐỘC QUYỀN TẠI TP HCM</b></span></div>
+                                {/*<div className="center-text">*/}
+                                {/*    <span className="color-blue"><span className="font-24"><strong>TÂN VIỆT ĐỨC&nbsp;</strong></span></span></div>*/}
+                                <div className="center-text" >
+                                    <div>
+                                        <strong className="font-16 color-red">Hotline: 0948.29.6828</strong></div>
+                                    <div>
+                                        <strong>Email: cuacuonthongminhsg@gmail.com&nbsp;</strong></div>
+                                </div>
+                                <div className="center-text">
+                                    <strong>Địa chỉ:&nbsp;493 khu phố 2, Đường Vườn Lài, Phường An Phú Đông, Quận 12, Tp. Hồ Chí Minh</strong></div>
+                            </div>
                         </div>
-                        <div className="set-icon col-md-2"></div>
                     </div>
                 </div>
-            </div>
+
         )
     }
 }
