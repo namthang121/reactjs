@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="232" selection-start-line="15" selection-start-column="232" selection-end-line="15" selection-end-column="232" />
+            <state relative-caret-position="323">
+              <caret line="19" column="236" selection-start-line="19" selection-start-column="236" selection-end-line="19" selection-end-column="236" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/pages/product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="253" selection-start-line="24" selection-start-column="253" selection-end-line="24" selection-end-column="253" />
+            <state relative-caret-position="527">
+              <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/bangbaogia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="114" selection-start-line="35" selection-start-column="114" selection-end-line="35" selection-end-column="114" />
+            <state relative-caret-position="323">
+              <caret line="27" column="236" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="27" selection-end-column="236" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="232" selection-start-line="21" selection-start-column="232" selection-end-line="21" selection-end-column="232" />
+            <state relative-caret-position="425">
+              <caret line="25" column="236" selection-start-line="25" selection-start-column="236" selection-end-line="25" selection-end-column="236" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="253" selection-start-line="26" selection-start-column="253" selection-end-line="26" selection-end-column="253" />
+            <state relative-caret-position="510">
+              <caret line="30" column="236" selection-start-line="30" selection-start-column="236" selection-end-line="30" selection-end-column="236" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -152,11 +152,11 @@
         <option value="$PROJECT_DIR$/src/components/layout/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/common/config/Contacts.json" />
         <option value="$PROJECT_DIR$/src/components/layout/header/header.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/bangbaogia.js" />
         <option value="$PROJECT_DIR$/src/components/pages/category.js" />
         <option value="$PROJECT_DIR$/src/components/pages/contact.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/pages/product.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/bangbaogia.js" />
       </list>
     </option>
   </component>
@@ -275,7 +275,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7503000" />
+    <option name="totallyTimeSpent" value="8161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -474,10 +474,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="232" selection-start-line="21" selection-start-column="232" selection-end-line="21" selection-end-column="232" />
+        <state relative-caret-position="160">
+          <caret line="260" column="24" lean-forward="true" selection-start-line="260" selection-start-column="24" selection-end-line="260" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/bangbaogia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="236" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="27" selection-end-column="236" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -486,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="253" selection-start-line="26" selection-start-column="253" selection-end-line="26" selection-end-column="253" />
+        <state relative-caret-position="510">
+          <caret line="30" column="236" selection-start-line="30" selection-start-column="236" selection-end-line="30" selection-end-column="236" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -496,35 +503,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="232" selection-start-line="15" selection-start-column="232" selection-end-line="15" selection-end-column="232" />
+        <state relative-caret-position="323">
+          <caret line="19" column="236" selection-start-line="19" selection-start-column="236" selection-end-line="19" selection-end-column="236" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/main.css">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="260" column="24" lean-forward="true" selection-start-line="260" selection-start-column="24" selection-end-line="260" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="25" column="236" selection-start-line="25" selection-start-column="236" selection-end-line="25" selection-end-column="236" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="253" selection-start-line="24" selection-start-column="253" selection-end-line="24" selection-end-column="253" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/bangbaogia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="114" selection-start-line="35" selection-start-column="114" selection-end-line="35" selection-end-column="114" />
+        <state relative-caret-position="527">
+          <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

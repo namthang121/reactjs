@@ -5,6 +5,7 @@ import "./main.css";
 import Footer from "../layout/footer/footer";
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
+import define from "../common/define";
 
 export default class BangBaoGia extends React.Component{
     state = {
@@ -21,6 +22,10 @@ export default class BangBaoGia extends React.Component{
                     <title>{"Danh Mục | Bang Bao Gia Mitadoor 2020"}</title>
                     <meta name="description" content="Khuyến Mãi Lớn từ 20 đến 35%
 Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa Cuốn Công Nghệ Đức. Khảo Sát Lắp Đặt Tận Nơi. Cam Kết Không Phát Sinh. Bảo Hành 60 tháng. Giá Cạnh Tranh. Tư Vấn Nhiệt Tình. Uy tín - Chuyên Nghiêp. Hỗ Trợ 24/7 - 0948296828"></meta>
+                    <meta property="og:title" content="Khuyến Mãi Lớn từ 20 đến 35%
+Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa Cuốn Công Nghệ Đức. Khảo Sát Lắp Đặt Tận Nơi. Cam Kết Không Phát Sinh. Bảo Hành 60 tháng. Giá Cạnh Tranh. Tư Vấn Nhiệt Tình. Uy tín - Chuyên Nghiêp. Hỗ Trợ 24/7 - 0948296828" />
+                    <meta property="og:description" content="Khuyến Mãi Lớn từ 20 đến 35%
+Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa Cuốn Công Nghệ Đức. Khảo Sát Lắp Đặt Tận Nơi. Cam Kết Không Phát Sinh. Bảo Hành 60 tháng. Giá Cạnh Tranh. Tư Vấn Nhiệt Tình. Uy tín - Chuyên Nghiêp. Hỗ Trợ 24/7 - 0948296828" />
                 </Helmet>
                 <Header></Header>
                 <div className="container">
@@ -49,7 +54,7 @@ Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa C
                             <li>Màu sắc, kiểu dáng phong phú, an toàn tuyệt đối, sử dụng bền.</li>
                             <li>Giá thành: rẻ, phù hợp với nhiều mục đích khách hàng sử dụng.</li>
                         </ul>
-                        <p><strong>2. Cửa cuốn Mitadoor (CHIẾT KHẤU ĐẾN 30%)</strong></p>
+                        <p className="color-red"><strong>2. Cửa cuốn Mitadoor (CHIẾT KHẤU ĐẾN 30%)</strong></p>
                         <p>Với công nghệ sản xuất nhập khẩu từ Đức, sản phẩm được nhiều khách hàng tin tưởng sử dụng, sản phẩm cam kết làm theo
                             đúng tiêu chuẩn, chất lượng cao, mẫu mã đẹp, đa dạng cho người dùng lựa chọn. </p>
                         <p><strong>Khi sử dụng cửa cuốn Mitadoor, khách hàng sẽ nhận được:</strong></p>
