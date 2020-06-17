@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4158034-1c33-4218-b4cb-24de943d4e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/bangbaogia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/bangbaogia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/bangbaogia.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/pages/bangbaogia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="85" column="103" selection-start-line="85" selection-start-column="103" selection-end-line="85" selection-end-column="103" />
+            <state relative-caret-position="255">
+              <caret line="30" column="123" lean-forward="true" selection-start-line="30" selection-start-column="123" selection-end-line="30" selection-end-column="123" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -241,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5411000" />
+    <option name="totallyTimeSpent" value="5779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -448,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/bangbaogia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="85" column="103" selection-start-line="85" selection-start-column="103" selection-end-line="85" selection-end-column="103" />
+        <state relative-caret-position="255">
+          <caret line="30" column="123" lean-forward="true" selection-start-line="30" selection-start-column="123" selection-end-line="30" selection-end-column="123" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

@@ -26,16 +26,15 @@ export default class BangBaoGia extends React.Component{
                     <section className="page-breadcrumb">
                         <ol className="breadcrumb">
                             <li><a href="/">Trang chủ </a></li>
-                            <li className="active">Bảng Báo Giá</li>
+                            <li className="active">Bảng Báo Giá 2020</li>
                         </ol>
-                        <p><strong>Mọi thông tin, quý khách vui lòng liên hệ: </strong></p>
-                        <p><strong>CỬA CUỐN GIẢI PHÁP THÔNG MINH</strong></p>
-                        <p><strong>Điện thoại:  0948296828 - 0945601145</strong></p>
-                        <p><strong>Email: cuacuonthongminhsg@gmail.com </strong></p>
-                        <p><strong>Địa chỉ: 493 KP2, Đường Vườn Lài, Phường An Phú Đông, Quận 12, Tp Hồ Chí Minh</strong></p>
+                        <p className="center-text font-16"><strong>Mọi thông tin, quý khách vui lòng liên hệ: </strong></p>
+                        <p className="center-text font-24 color-blue"><strong>CỬA CUỐN GIẢI PHÁP THÔNG MINH</strong></p>
+                        <p className="center-text color-red"><strong>Điện thoại:  0948296828 - 0945601145</strong></p>
+                        <p className="center-text"><strong>Email: cuacuonthongminhsg@gmail.com </strong></p>
+                        <p className="center-text"><strong>Địa chỉ: 493 KP2, Đường Vườn Lài, Phường An Phú Đông, Quận 12, Tp Hồ Chí Minh</strong></p>
                         <p> </p>
-                        <p> </p>
-                        <p><strong>CÁC THƯƠNG HIỆU CỬA CUỐN HIỆN CÓ TRÊN THỊ TRƯỜNG</strong></p>
+                        <p className="center-text"><strong>CÁC THƯƠNG HIỆU CỬA CUỐN HIỆN CÓ TRÊN THỊ TRƯỜNG</strong></p>
                         <p> </p>
                         <p><strong>1. Cửa cuốn công nghệ Đài Loan- Inox</strong></p>
                         <p>Nguyên liệu được nhập khẩu từ Đài Loan, đây là mẫu cửa đang rất được ưa chuộng sử dụng để lắp đặ tại nhà, xí nghiệp,
