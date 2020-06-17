@@ -16,8 +16,8 @@ export default class Header extends React.Component {
                         <div className="wrap row">
                             <div className="logo-top col-sm-4 col-xs-12 ">
                                 <div className="logo">
-                                    <a href="" target="_blank" title="Logo"><img
-                                        src="https://www.cuacuonchongtrom.com/library/logo1523504582_s73.png" alt="Logo"
+                                    <a href="/" target="_blank" title="Logo"><img
+                                        src="/" alt="Logo"
                                         title="Logo" /></a>
                                 </div>
                             </div>

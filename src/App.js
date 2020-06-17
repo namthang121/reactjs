@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="">
         <Router>
-                <Route exact path="/" exact component={Index} />
+                <Route exact path="/"  component={Index} />
                 <Route path="/san-pham/:id" component={Product} />
                 <Route path="/lien-he" component={Contact} />
                 <Route path="/danh-muc/:id" component={Category} />

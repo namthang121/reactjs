@@ -3,9 +3,6 @@ import {Link} from "react-router-dom";
 import './menu.css';
 
 export default class Menu extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

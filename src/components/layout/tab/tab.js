@@ -9,9 +9,9 @@ import {Link} from "react-router-dom";
 // };
 
 export default class tab extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
     render() {
         return (

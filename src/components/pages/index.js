@@ -9,9 +9,9 @@ import Footer from "../layout/footer/footer";
 import {Helmet} from "react-helmet";
 
 export default class Index extends React.Component{
-    constructor(props){
-        super(props);
-    }
+    // constructor(props){
+    //     super(props);
+    // }
 
     render (){
         return(

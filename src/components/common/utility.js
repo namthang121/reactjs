@@ -22,7 +22,7 @@ Utility.getCategoryById = function(id){
     let list = self.getCategory();
 
     let category = list.find(function (el) {
-        return el.id == id;
+        return el.id === id;
     });
 
     return category;
@@ -37,7 +37,7 @@ Utility.getProductById = function (id) {
         let categoryId = categoryJson[i].id;
         for(let j =0; j < productJson[categoryId].length; j++){
             let product = productJson[categoryId][j];
-            if(id == product.id){
+            if(id === product.id){
                 return product;
             }
         }
@@ -46,7 +46,7 @@ Utility.getProductById = function (id) {
 
 Utility.getProductWithCategoryId = function (id, idProductExclude) {
     let product = productJson[id].filter(function (el) {
-        return el.id != idProductExclude;
+        return el.id !== idProductExclude;
     });
     return product;
 };
@@ -67,11 +67,6 @@ Utility.getContact = function () {
     return contact;
 };
 
-Utility.formatPhoneNumber = function(){
-    let self = this;
-    let str =  self.getContact().phoneNumber;
-
-};
 
 Utility.bodauTiengViet = function(str){
     str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
@@ -139,7 +134,7 @@ Utility.getDescByKey = function (product, arrKey) {
     let arr = [];
     for(let i =0; i< arrKey.length; i++){
         let each = arrKey[i];
-        if(each == "categoryId"){
+        if(each === "categoryId"){
             arr.push(Utility.getCategory()[product[each]].name);
         }else {
             arr.push(product[each]);
