@@ -22,7 +22,7 @@ Utility.getCategoryById = function(id){
     let list = self.getCategory();
 
     let category = list.find(function (el) {
-        return el.id === id;
+        return el.id == id;
     });
 
     return category;

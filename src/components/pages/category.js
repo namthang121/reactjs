@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../layout/header/header';
-
 import Utility from '../common/utility';
 import "./main.css";
 import Footer from "../layout/footer/footer";
@@ -8,11 +7,15 @@ import {Helmet} from "react-helmet";
 import CategoryView from "../layout/category/category";
 
 export default class Category extends React.Component{
-    constructor(props){
-        super(props);
-        let {id} = props.match.params;
+    state = {
+        data : {},
+        products : []
+    };
+
+    componentDidMount() {
+        let {id} = this.props.match.params;
         let data = Utility.getCategoryById(id);
-        this.state = {data: data, products: Utility.getProductWithCategoryId(id, "")};
+        this.setState({data: data, products: Utility.getProductWithCategoryId(id, "")});
     }
 
     render (){
