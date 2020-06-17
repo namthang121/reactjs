@@ -116,6 +116,10 @@
     /*.set-input-search{*/
     /*    margin-right: -15px;*/
     /*}*/
+    .set-logo{
+        margin-left: 20px;
+    }
+
 
     .head-contact{
         text-align: center;
@@ -157,5 +161,4 @@
 .color-red{
     color: rgb(255, 0, 0);
 }
-
 
