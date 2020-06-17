@@ -30,8 +30,8 @@ export default class Header extends React.Component {
                                 {/*<div className="center-text">*/}
                                 {/*    <span className="color-blue"><span className="font-24"><strong>TÂN VIỆT ĐỨC&nbsp;</strong></span></span></div>*/}
                                 <div className="center-text" >
-                                    <div>
-                                        <strong className="font-16 color-red">Hotline: 0948.29.6828</strong></div>
+                                    <a href="tel:+84948296828">
+                                        <strong className="font-16 color-red">Hotline: 0948.29.6828</strong></a>
                                     <div>
                                         <strong>Email: cuacuonthongminhsg@gmail.com&nbsp;</strong></div>
                                 </div>
