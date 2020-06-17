@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css'
+import Utility from "../../common/utility";
 
 
 export default class Header extends React.Component {
@@ -16,9 +17,11 @@ export default class Header extends React.Component {
                         <div className="wrap row">
                             <div className="logo-top col-sm-4 col-xs-12 ">
                                 <div className="logo">
-                                    <a href="/" target="_blank" title="Logo"><img
-                                        src="/" alt="Logo"
-                                        title="Logo" /></a>
+                                    <a href="" >
+                                        <img
+                                        src={Utility.getUrlImage("logoMitadoor")}
+                                        />
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-8 col-xs-12">

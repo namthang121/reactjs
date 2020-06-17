@@ -6,9 +6,6 @@ import ContactLayout from "../layout/contactLayout/contactLayout";
 import {Helmet} from "react-helmet";
 
 export default class Contact extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
