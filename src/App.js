@@ -16,7 +16,7 @@ function App() {
                 <Route path="/san-pham/:id" component={Product} />
                 <Route path="/lien-he" component={Contact} />
                 <Route path="/danh-muc/:id" component={Category} />
-                <Route path="/bang-bao-gia-2020" component={BangBaoGia} />
+                <Route path="/bang-bao-gia-Mitadoor-2020" component={BangBaoGia} />
         </Router>
     </div>
   );

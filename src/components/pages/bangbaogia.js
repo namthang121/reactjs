@@ -18,15 +18,15 @@ export default class BangBaoGia extends React.Component{
         return(
             <div>
                 <Helmet>
-                    <title>{"Danh Mục | Bang Bao Gia 2020"}</title>
-                    <meta name="description" content="Bang Bao Gia 2020"></meta>
+                    <title>{"Danh Mục | Bang Bao Gia Mitadoor 2020"}</title>
+                    <meta name="description" content="Bang Bao Gia Mitadoor 2020"></meta>
                 </Helmet>
                 <Header></Header>
                 <div className="container">
                     <section className="page-breadcrumb">
                         <ol className="breadcrumb">
                             <li><a href="/">Trang chủ </a></li>
-                            <li className="active">Bảng Báo Giá 2020</li>
+                            <li className="active">Bảng Báo Giá Mitadoor 2020</li>
                         </ol>
                         <p className="center-text font-16"><strong>Mọi thông tin, quý khách vui lòng liên hệ: </strong></p>
                         <p className="center-text font-24 color-blue"><strong>CỬA CUỐN GIẢI PHÁP THÔNG MINH</strong></p>
