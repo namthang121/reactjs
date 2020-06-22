@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4158034-1c33-4218-b4cb-24de943d4e70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/common/config/Categorys.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/config/Categorys.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/config/Products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/config/Products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/utility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/tab/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/tab/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/category/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/category/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/category.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,27 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/config/Products.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="284" column="17" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/product.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -56,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+            <state relative-caret-position="408">
+              <caret line="99" column="67" lean-forward="true" selection-start-line="99" selection-start-column="67" selection-end-line="99" selection-end-column="67" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -78,6 +52,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/contact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="236" selection-start-line="19" selection-start-column="236" selection-end-line="19" selection-end-column="236" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/config/Categorys.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -90,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="43" column="112" selection-start-line="43" selection-start-column="112" selection-end-line="43" selection-end-column="112" />
+              <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,10 +85,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/utility.js">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="791">
+              <caret line="84" column="66" lean-forward="true" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout/tab/tab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="43" column="109" lean-forward="true" selection-start-line="43" selection-start-column="109" selection-end-line="43" selection-end-column="123" />
+            <state relative-caret-position="425">
+              <caret line="44" column="69" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="44" selection-end-column="69" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -122,8 +111,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/pages/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/layout/category/category.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -158,13 +159,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/layout/contactLayout/contactLayout.js" />
         <option value="$PROJECT_DIR$/src/components/layout/footer/footer.js" />
-        <option value="$PROJECT_DIR$/src/components/layout/category/category.js" />
         <option value="$PROJECT_DIR$/src/components/pages/main.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/layout/menu/menu.js" />
         <option value="$PROJECT_DIR$/src/components/layout/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/common/config/Contacts.json" />
-        <option value="$PROJECT_DIR$/src/components/pages/category.js" />
         <option value="$PROJECT_DIR$/src/components/pages/contact.js" />
         <option value="$PROJECT_DIR$/src/components/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/pages/bangbaogia.js" />
@@ -175,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/components/common/utility.js" />
         <option value="$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js" />
         <option value="$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/category.js" />
+        <option value="$PROJECT_DIR$/src/components/layout/category/category.js" />
       </list>
     </option>
   </component>
@@ -312,12 +313,12 @@
       <option name="presentableId" value="Default" />
       <updated>1592446136927</updated>
       <workItem from="1592446149677" duration="754000" />
-      <workItem from="1592833779132" duration="3940000" />
+      <workItem from="1592833779132" duration="4507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13271000" />
+    <option name="totallyTimeSpent" value="13838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +333,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -346,7 +347,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21972133" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21972133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -430,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/category/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -464,16 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="236" selection-start-line="19" selection-start-column="236" selection-end-line="19" selection-end-column="236" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/header/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -538,20 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/config/Products.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="284" column="17" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="17" />
+        <state relative-caret-position="-125">
+          <caret column="68303" selection-start-column="68303" selection-end-column="68303" />
         </state>
       </provider>
     </entry>
@@ -569,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/config/Categorys.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -586,10 +540,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/tab/tab.js">
+    <entry file="file://$PROJECT_DIR$/src/components/common/config/Categorys.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="109" lean-forward="true" selection-start-line="43" selection-start-column="109" selection-end-line="43" selection-end-column="123" />
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="84" column="66" lean-forward="true" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -599,7 +560,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/layout/moTaSanPham/moTaSanPham.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="43" column="112" selection-start-line="43" selection-start-column="112" selection-end-line="43" selection-end-column="112" />
+          <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -608,8 +569,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/detailtProduct/detailtProduct.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+        <state relative-caret-position="408">
+          <caret line="99" column="67" lean-forward="true" selection-start-line="99" selection-start-column="67" selection-end-line="99" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/tab/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" column="69" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="236" selection-start-line="19" selection-start-column="236" selection-end-line="19" selection-end-column="236" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/category/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

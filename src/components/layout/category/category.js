@@ -28,8 +28,10 @@ export default class CategoryView extends React.Component {
                                         </div>
                                         <div className="caption">
                                             <a href={'/san-pham/' + product.id} className="name-product">{product.name}</a>
-                                            <div className="price"><span className="amount">{Utility.formatAmount(product.price)}₫</span>
-                                            </div>
+                                            {
+                                                product.price === -1 ? <div><a  href="tel:0948296828" className="color-red">Liên Hệ</a></div> : <span className="color-red">{Utility.formatAmount(product.price)} ₫</span>
+                                            }
+
                                         </div>
                                     </div>
                                 </div>

@@ -32,7 +32,7 @@ Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa C
                 </Helmet>
                 <Header></Header>
                 <div className="container">
-                    <CategoryView category={this.state.data} products = {this.state.products}></CategoryView>
+                    <CategoryView category={this.state.data} products = {this.state.products} />
                 </div>
 
                 <Footer />
