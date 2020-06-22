@@ -13,6 +13,17 @@ export default class Header extends React.Component {
     render() {
         return (
                 <div className="medium-header hidden-xs hidden-sm">
+                    <div id="zalo-pc">
+                        <a href="https://zalo.me/0948296828" target="blank">
+                            <img src={Utility.getUrlImage("zalo")} />
+                        </a>
+                    </div>
+                    <a href="tel:0948296828">
+                        <div className="quick-alo-phone" id="quick-alo-phoneIcon">
+                            <div className="quick-alo-ph-circle-fill"></div>
+                            <div className="quick-alo-ph-img-circle"></div>
+                        </div>
+                    </a>
                     <div className="container">
                         <div className="wrap row">
                             <div className="logo-top col-sm-4 col-xs-12 ">
