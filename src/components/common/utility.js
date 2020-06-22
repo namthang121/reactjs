@@ -131,10 +131,13 @@ Utility.getDestDefault = function(){
 Utility.getDescByKey = function (product, arrKey) {
     let self = this;
     let arr = [];
+    console.log("product", product);
+    console.log("arrKey", arrKey);
+    let allCategory = Utility.getCategory();
     for(let i =0; i< arrKey.length; i++){
         let each = arrKey[i];
         if(each == "categoryId"){
-            arr.push(Utility.getCategory()[product[each]].name);
+            arr.push(allCategory[product[each]].name);
         }else {
             arr.push(product[each]);
         }
