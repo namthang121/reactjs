@@ -24,7 +24,7 @@
         "banggiacuacuongiare"
       ],
       "desc": "",
-      "price": 0,
+      "price": -1,
       "oldPrice": 0,
       "quantity": 1
     },
@@ -206,7 +206,7 @@
         "X50R 3"
       ],
       "desc": "",
-      "price": 300000,
+      "price": -1,
       "oldPrice": 320000,
       "quantity": 1
     },
@@ -215,12 +215,11 @@
       "name": "Cửa Cuốn Đài Loan Màu Xanh",
       "categoryId": 4,
       "image": [
-        "X50R 1",
-        "X50R 2",
-        "X50R 3"
+        "mauxanh1",
+        "mauxanh2"
       ],
       "desc": "",
-      "price": 300000,
+      "price": -1,
       "oldPrice": 320000,
       "quantity": 1
     },
@@ -229,12 +228,10 @@
       "name": "Cửa Cuốn Đài Loan Màu Kem",
       "categoryId": 4,
       "image": [
-        "X50R 1",
-        "X50R 2",
-        "X50R 3"
+        "maukem"
       ],
       "desc": "",
-      "price": 300000,
+      "price": -1,
       "oldPrice": 320000,
       "quantity": 1
     },
@@ -248,7 +245,7 @@
         "X50R 3"
       ],
       "desc": "",
-      "price": 300000,
+      "price": -1,
       "oldPrice": 320000,
       "quantity": 1
     },
@@ -287,12 +284,11 @@
       "name": "Cửa Cuốn Úc Tấm Liền",
       "categoryId": 5,
       "image": [
-        "X50R 1",
-        "X50R 2",
-        "X50R 3"
+        "banggia1",
+        "banggia2"
       ],
       "desc": "",
-      "price": 300000,
+      "price": -1,
       "oldPrice": 320000,
       "quantity": 1
     },
@@ -349,8 +345,8 @@
         "anh5"
       ],
       "desc": "<table><tr><td colspan=\"4\"><p><a id=\"RANGE!A1:D48\"></a>BẢNG GIÁ CỬA KÉO CÔNG NGHỆ ĐÀI LOAN</p></td></tr><tr><td><p>LoẠI</p></td><td><p>DiỆN TÍCH (M2)</p></td><td><p>ĐƠN GIÁ VNĐ/M2</p></td><td><p>ĐƠN GIÁ VNĐ/M2</p></td></tr><tr><td><p>loại có lá</p></td><td><p> </p></td><td><p>dòng phổ thông</p></td><td><p>dòng tiêu chuân</p></td></tr><tr><td><p> </p></td><td><p>8M2 TRỞ LÊN</p></td><td><p>650,000</p></td><td><p>750,000</p></td></tr><tr><td><p>( bản 70mm)</p></td><td><p>7m2 - 8m2</p></td><td><p>660,000</p></td><td><p>760,000</p></td></tr><tr><td><p> </p></td><td><p>6m2 7m2</p></td><td><p>670,000</p></td><td><p>770,000</p></td></tr><tr><td><p> </p></td><td><p>5m2 6m2</p></td><td><p>680,000</p></td><td><p>780,000</p></td></tr><tr><td><p> </p></td><td><p>8M2 TRỞ LÊN</p></td><td><p>530,000</p></td><td><p>630,000</p></td></tr><tr><td><p> </p></td><td><p>7m2 - 8m2</p></td><td><p>540,000</p></td><td><p>640,000</p></td></tr><tr><td><p>loại ko lá</p></td><td><p>6m2 7m2</p></td><td><p>550,000</p></td><td><p>650,000</p></td></tr><tr><td><p> </p></td><td><p>5m2 6m2</p></td><td><p>560,000</p></td><td><p>660,000</p></td></tr><tr><td><p><strong>1. Dòng phổ thông</strong></p></td><td></td><td></td><td></td></tr><tr><td colspan=\"2\"><p>* U bằng tole mạ màu 0,6mm ( 0,6 dem)</p></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\"><p>BẢNG GIÁ CỬA KÉO CÔNG NGHỆ ĐỨC</p></td></tr><tr><td colspan=\"4\"><p>Dòng đặc biệt U bằng thép sơn tích điện đơn giá /m2</p></td></tr><tr><td><p>loại</p></td><td><p>DiỆN TÍCH (M2)</p></td><td><p>ĐƠN GIÁ VNĐ/M2</p></td><td><p>ĐƠN GIÁ VNĐ/M2</p></td></tr><tr><td><p> </p></td><td><p> </p></td><td><p> </p></td><td><p> </p></td></tr><tr><td><p>loai có lá</p></td><td><p>1.0ly</p></td><td><p>1.2ly</p></td><td><p>1.4ly</p></td></tr><tr><td><p> </p></td><td><p>1,050,000</p></td><td><p>1,120,000</p></td><td><p>1,200,000</p></td></tr><tr><td><p>bản 70mm</p></td><td><p>1,060,000</p></td><td><p>1,130,000</p></td><td><p>1,210,000</p></td></tr><tr><td><p> </p></td><td><p>1,070,000</p></td><td><p>1,140,000</p></td><td><p>1,122,000</p></td></tr><tr><td><p> </p></td><td><p>1,080,000</p></td><td><p>1,150,000</p></td><td><p>1,123,000</p></td></tr><tr><td><p> </p></td><td><p> </p></td><td><p> </p></td><td><p> </p></td></tr><tr><td><p>loại ko lá</p></td><td><p>930,000</p></td><td><p>1,000,000</p></td><td><p>1,100,000</p></td></tr><tr><td><p> </p></td><td><p>940,000</p></td><td><p>1,010,000</p></td><td><p>1,110,000</p></td></tr><tr><td><p> </p></td><td><p>950,000</p></td><td><p>1,020,000</p></td><td><p>1,120,000</p></td></tr><tr><td><p> </p></td><td><p>960,000</p></td><td><p>1,030,000</p></td><td><p>1,130,000</p></td></tr><tr><td><p>lưu ý </p></td><td></td><td></td><td></td></tr><tr><td><p>lựa chọn thêm</p></td><td><p> </p></td><td><p>                   dvt</p></td><td><p>                 đơn giá</p></td></tr><tr><td colspan=\"2\"><p>máng treo</p></td><td><p>                   m</p></td><td><p>350,000</p></td></tr><tr><td colspan=\"2\"><p>bản lề xoay sử dụng bạc đạn</p></td><td><p>bộ 1 cánh</p></td><td><p>700,000</p></td></tr><tr><td><p> </p></td><td><p> </p></td><td><p>bộ 2 cánh</p></td><td><p>1,200,000</p></td></tr><tr><td><p>sử dụng lá </p></td><td><p>dòng phổ thông</p></td><td><p>                   m2</p></td><td><p>200,000</p></td></tr><tr><td><p>ngoài quy cách </p></td><td><p>dòng tiêu chuẩn</p></td><td><p>                   m2</p></td><td><p>250,000</p></td></tr><tr><td><p>bản 70mm</p></td><td><p>dòng đặc biệt</p></td><td><p>                  m2</p></td><td><p>300,000</p></td></tr><tr><td><p> </p></td><td><p>dòng cao cấp</p></td><td><p>                 m2</p></td><td><p>600,000</p></td></tr><tr><td><p>mắt nhìn (ống nhòm)</p></td><td><p> </p></td><td><p>                 cái</p></td><td><p>60,000</p></td></tr><tr><td><p>   lưu ý</p></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\"><p>* Nhíp la đặc + lá sơn tĩnh điện màu ghi sần (màu cưa cn đức) + thêm 100,000/1m2</p></td></tr><tr><td colspan=\"4\"><p>* Cửa dưới 5m2 + thêm 300,000 / bộ cho dòng phổ thông/ tiêu chuẩn.dòng đăc biệt + thêm </p></td></tr><tr><td><p>500,000 / 1 bộ</p></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\"><p>* Độ dày trọng lượng sản phẩm  +-5% ,quý cách sử dụng lá cách đầu máng 0.4m  đến 0.45m</p></td></tr><tr><td colspan=\"4\"><p>*Đơn giá trên chưa bao gồm 10%vat,đã bao gồm vận chuyển lắp đặt hoàn thiện nội ô tp hcm</p></td></tr><tr><td colspan=\"4\"><p>* Đơn giá trên chưa tính phí phát sinh do phải đục đẽo,tháo cửa cũ,.. Để lắp đặt hoàn thiện cửa</p></td></tr><tr><td colspan=\"2\"><p>mới theo yêu cầu kỹ thuật.</p></td><td></td><td></td></tr><tr><td colspan=\"2\"><p>* chi phí sẽ đôi bên thống nhất thực tế</p></td><td></td><td></td></tr><tr><td colspan=\"4\"><p><strong>* chân thành cảm ơn quý khách hàng đã tin tưởng sử dụng sản phẩm của công ty chúng tôi!</strong></p></td></tr></table>",
-      "price": 0,
-      "oldPrice": 0,
+      "price": -1,
+      "oldPrice": -1,
       "quantity": 1
     }
   ]

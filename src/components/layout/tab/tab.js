@@ -40,8 +40,9 @@ export default class tab extends React.Component {
                                                             <div className="caption">
                                                                 <a href={'/san-pham/' + product.id} className="name-product">{product.name}</a>
                                                                 <div className="price">
-                                                                    <span
-                                                                        className="amount">{Utility.formatAmount(product.price)}₫</span>
+                                                                    {
+                                                                        product.price === -1 ? <div><a href="tel:0948296828" className="amount">Liên Hệ</a></div> : <span className="amount">{Utility.formatAmount(product.price)} ₫</span>
+                                                                    }
                                                                 </div>
                                                             </div>
                                                         </div>

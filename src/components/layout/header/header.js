@@ -28,7 +28,7 @@ export default class Header extends React.Component {
                         <div className="wrap row">
                             <div className="logo-top col-sm-4 col-xs-12 ">
                                 <div className="logo">
-                                    <a href="" className="set-logo">
+                                    <a href="/" className="set-logo">
                                         <img
                                         src={Utility.getUrlImage("logoMitadoor")}
                                         />

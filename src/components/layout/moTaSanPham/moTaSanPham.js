@@ -40,7 +40,10 @@ export default class MoTaSanPham extends React.Component {
                                                             <Link className="name-product"
                                                                to={"/san-pham/" + each.id}>{each.name}</Link>
                                                             <div className="price">
-                                                                <span className="amount">{Utility.formatAmount(each.price)} ₫</span>
+                                                                {
+                                                                    each.price == -1 ? <div><a className="amount" href="tel:0948296828">Liên Hệ</a></div> : <span className="amount">{Utility.formatAmount(each.price)} ₫</span>
+                                                                }
+
                                                             </div>
                                                         </div>
                                                     </div>

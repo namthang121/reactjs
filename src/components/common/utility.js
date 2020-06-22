@@ -18,11 +18,10 @@ Utility.getCategory = function () {
 };
 
 Utility.getCategoryById = function(id){
-    let self = this;
-    let list = self.getCategory();
+    let list = Utility.getCategory();
 
     let category = list.find(function (el) {
-        return el.id == id;
+        return el.id.toString() == id.toString();
     });
 
     return category;
@@ -37,7 +36,7 @@ Utility.getProductById = function (id) {
         let categoryId = categoryJson[i].id;
         for(let j =0; j < productJson[categoryId].length; j++){
             let product = productJson[categoryId][j];
-            if(id === product.id){
+            if(id == product.id){
                 return product;
             }
         }
@@ -46,7 +45,7 @@ Utility.getProductById = function (id) {
 
 Utility.getProductWithCategoryId = function (id, idProductExclude) {
     let product = productJson[id].filter(function (el) {
-        return el.id !== idProductExclude;
+        return el.id != idProductExclude;
     });
     return product;
 };

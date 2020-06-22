@@ -89,8 +89,13 @@ export default class DetailtProduct extends React.Component {
                                     <p><b>Trạng thái:</b>
                                         <span className="t-blue"> Còn hàng</span></p>
                                     <p></p>
-                                    <p className="price"><b>Giá bán:</b> {Utility.formatAmount(this.props.data.price)} ₫</p>
-                                    <p className="price-old"><b>Giá thị trường:</b> <span>{Utility.formatAmount(this.props.data.oldPrice)}</span> ₫ </p>
+                                    <p className="price"><b>Giá bán:</b> {
+                                        this.props.data.price == -1 ?<a className="color-red" href="tel:0948296828">Liên Hệ</a>: <span className="amount">{Utility.formatAmount(this.props.data.price)} đ</span>
+                                    }</p>
+                                    {
+                                        this.props.data.price == -1 ? <div></div> : <p className="price-old"><b>Giá thị trường:</b> <span>{Utility.formatAmount(this.props.data.oldPrice)}</span> ₫ </p>
+                                    }
+
 
                                     {/*<div className="soluong">*/}
                                     {/*    <span>Số lượng</span>*/}
