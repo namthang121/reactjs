@@ -9,7 +9,7 @@ let Utility = function () {
 
 Utility.formatAmount =   function(n) {
     return  n.toFixed(0).replace(/./g, function(c, i, a) {
-        return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+        return i > 0 && c !== "." && (a.length - i) % 3 == 0 ? "," + c : c;
     });
 };
 
@@ -133,7 +133,7 @@ Utility.getDescByKey = function (product, arrKey) {
     let arr = [];
     for(let i =0; i< arrKey.length; i++){
         let each = arrKey[i];
-        if(each === "categoryId"){
+        if(each == "categoryId"){
             arr.push(Utility.getCategory()[product[each]].name);
         }else {
             arr.push(product[each]);

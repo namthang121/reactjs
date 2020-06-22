@@ -13,7 +13,6 @@ export default class Product extends React.Component{
         super(props);
         let {id} = props.match.params;
         let data = Utility.getProductById(id);
-        console.log("data", data);
         this.state = {data: data};
     }
 
