@@ -50,7 +50,7 @@ Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa C
                                     <div className="description pull-left">
                                         <h4 title="MIỄN PHÍ VẬN CHUYỂN">MIỄN PHÍ <spans className="color-policy">LẮP
                                             ĐẶT</spans></h4>
-                                        <p>Cho đơn hàng trên 10 triệu</p></div>
+                                        <p>Sản phẩm</p></div>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6 col-xs-12 item_policy">
@@ -67,7 +67,7 @@ Sản Xuất, Lắp Đặt Cửa Cuốn Mitadoor, Cửa Kéo Đài Loan, Cửa C
                                     className="name-icon pull-left fa fa-smile-wink"></span>
                                     <div className="description pull-left">
                                         <h4 title="HỖ TRỢ TƯ VẤN">HỖ TRỢ <spans className="color-policy">TƯ VẤN</spans></h4>
-                                        <p>Thứ 2-Thứ 7 : 08g30 - 17g30</p></div>
+                                        <p>24/7</p></div>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6 col-xs-12 item_policy">
